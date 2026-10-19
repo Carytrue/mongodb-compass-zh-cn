@@ -1,0 +1,270 @@
+[
+  [
+    "(e.favorite?.name??\"New Connection\")||\"Edit Connection\"",
+    "(e.favorite?.name??\"新建连接\")||\"编辑连接\""
+  ],
+  [
+    "placeholder:J?\"Search clusters\":\"Search connections\"",
+    "placeholder:J?\"搜索集群\":\"搜索连接\""
+  ],
+  [
+    "J?\"Clusters\":\"Connections\"",
+    "J?\"集群\":\"连接\""
+  ],
+  [
+    "s?\"Hostname\":\"Host\"",
+    "s?\"主机名\":\"主机\""
+  ],
+  [
+    "label:`&About ${i.app.getName()}`",
+    "label:`关于 ${i.app.getName()}(&A)`"
+  ],
+  [
+    "label:`&Online ${i.app.getName()} Help`",
+    "label:`在线 ${i.app.getName()} 帮助(&O)`"
+  ],
+  [
+    "Ae(\"E&xit\",t)",
+    "Ae(\"退出(&X)\",t)"
+  ],
+  [
+    "name:\"Feature Preview\",preferences",
+    "name:\"功能预览\",preferences"
+  ],
+  [
+    "cancelText:e=\"Cancel\"",
+    "cancelText:e=\"取消\""
+  ],
+  [
+    "cancelButtonText:a=\"Cancel\"",
+    "cancelButtonText:a=\"取消\""
+  ],
+  [
+    "closeButtonText:a=\"Close\"",
+    "closeButtonText:a=\"关闭\""
+  ],
+  [
+    "buttonLabel:e=\"Apply\"",
+    "buttonLabel:e=\"应用\""
+  ],
+  [
+    "queryLabel:e=\"Filter\"",
+    "queryLabel:e=\"筛选\""
+  ],
+  [
+    "placeholder:e=\"Search\"",
+    "placeholder:e=\"搜索\""
+  ],
+  [
+    "title:n=\"Search\"",
+    "title:n=\"搜索\""
+  ],
+  [
+    "\"Light Theme\")",
+    "\"浅色主题\")"
+  ],
+  [
+    "\"Dark Theme\")",
+    "\"深色主题\")"
+  ],
+  [
+    "a.createElement(\"b\",null,r??\"N/A\",\" Document\",1===r?\"\":\"s\"),\" \",\"in the collection\")",
+    "a.createElement(\"b\",null,r??\"N/A\",\" 个文档\"),\" \",\"在集合中\")"
+  ],
+  [
+    "\"Allow the MongoDB Assistant to interact with your databases. All actions require your approval before running. Learn more about\"",
+    "\"允许 MongoDB 助手与您的数据库交互，所有操作运行前都需要您的批准。了解更多关于\""
+  ],
+  [
+    "target:\"_blank\"},\"MongoDB database tools\")",
+    "target:\"_blank\"},\"MongoDB 数据库工具\")"
+  ],
+  [
+    "o.createElement(\"span\",{className:ae},\"Generate \",t)",
+    "o.createElement(\"span\",{className:ae},\"生成\",{query:\"查询\",aggregation:\"聚合\"}[t]??t)"
+  ],
+  [
+    "<span>Generate query</span>",
+    "<span>生成查询</span>"
+  ],
+  [
+    "label:o=()=>\"Options\",\"aria-label\":l=e=>e?\"Fewer Options\":\"More Options\"",
+    "label:o=()=>\"选项\",\"aria-label\":l=e=>e?\"收起选项\":\"更多选项\""
+  ],
+  [
+    "placeholder:\"Type a query: { field: 'value' }\"",
+    "placeholder:\"输入查询：{ field: 'value' }\""
+  ],
+  [
+    "\"Learn more: \",c.createElement(u.Link,{href:\"https://www.mongodb.com/legal/privacy-policy\"},\"MongoDB Privacy Policy\")",
+    "\"了解更多：\",c.createElement(u.Link,{href:\"https://www.mongodb.com/legal/privacy-policy\"},\"MongoDB 隐私政策\")"
+  ],
+  [
+    "null,\" \",\"Need help getting started?\")",
+    "null,\" \",\"需要入门帮助？\")"
+  ],
+  [
+    "color1:\"Green\",color2:\"Teal\",color3:\"Blue\",color4:\"Iris\",color5:\"Purple\",color6:\"Red\",color7:\"Pink\",color8:\"Orange\",color9:\"Yellow\",color10:\"Gray\"",
+    "color1:\"绿色\",color2:\"青色\",color3:\"蓝色\",color4:\"靛蓝\",color5:\"紫色\",color6:\"红色\",color7:\"粉色\",color8:\"橙色\",color9:\"黄色\",color10:\"灰色\""
+  ],
+  [
+    "b?\"Select files…\":\"Select a file…\"",
+    "b?\"选择多个文件…\":\"选择文件…\""
+  ],
+  [
+    "name:\"Connection Name\"}",
+    "name:\"连接名称\"}"
+  ],
+  [
+    "\"Coordinated Universal Time\":e===o?\"Your system's timezone\":t?\"Observes daylight savings.\":void 0",
+    "\"协调世界时\":e===o?\"您的系统时区\":t?\"实行夏令时。\":void 0"
+  ],
+  [
+    "\"Manage this behaviour on the Compass\"",
+    "\"可在 Compass\""
+  ],
+  [
+    "},\"CREATE FREE CLUSTER\")",
+    "},\"免费创建集群\")"
+  ],
+  [
+    "\"Specify a \",c.createElement(\"code\",null,\"http://\")",
+    "\"指定一个 \",c.createElement(\"code\",null,\"http://\")"
+  ],
+  [
+    "\"or \",c.createElement(\"code\",null,\"pac+https://\"),\" URL.\"",
+    "\"或 \",c.createElement(\"code\",null,\"pac+https://\"),\" URL。\""
+  ],
+  [
+    "\"When enabled, Compass occasionally calls the\"",
+    "\"启用后，Compass 会不定期调用\""
+  ],
+  [
+    "description:'Display legacy UUIDs using Java UUID encoding. LegacyJavaUUID(\"UUID_STRING\")'",
+    "description:'使用 Java UUID 编码显示旧版 UUID。LegacyJavaUUID(\"UUID_STRING\")'"
+  ],
+  [
+    "description:'Display legacy UUIDs using C# UUID encoding. LegacyCSharpUUID(\"UUID_STRING\")'",
+    "description:'使用 C# UUID 编码显示旧版 UUID。LegacyCSharpUUID(\"UUID_STRING\")'"
+  ],
+  [
+    "description:'Display legacy UUIDs using Python UUID encoding. LegacyPythonUUID(\"UUID_STRING\")'",
+    "description:'使用 Python UUID 编码显示旧版 UUID。LegacyPythonUUID(\"UUID_STRING\")'"
+  ],
+  [
+    "t.title=e?\"Fold code block\":\"Unfold code block\"",
+    "t.title=e?\"折叠代码块\":\"展开代码块\""
+  ],
+  [
+    "name:\"atlas-connection-error-debugger\",readonly:!0,description:\"Use to debug a Compass connection failure to an Atlas cluster. Returns Atlas-side diagnostics (cluster state, IP access list).\"",
+    "name:\"atlas-connection-error-debugger\",readonly:!0,description:\"用于调试 Compass 连接 Atlas 集群失败的问题，返回 Atlas 端诊断信息（集群状态、IP 访问列表）。\""
+  ],
+  [
+    "children:t.buttonText??\"Confirm\"",
+    "children:t.buttonText??\"确认\""
+  ],
+  [
+    "void 0===o?\"Select\":o",
+    "void 0===o?\"请选择\":o"
+  ],
+  [
+    "void 0===x?\"Select\":x",
+    "void 0===x?\"请选择\":x"
+  ],
+  [
+    "c||\"Optional\"",
+    "c||\"可选\""
+  ],
+  [
+    "description:a?\"Learn More\":void 0",
+    "description:a?\"了解更多\":void 0"
+  ],
+  [
+    "description:n?\"Learn More\":void 0",
+    "description:n?\"了解更多\":void 0"
+  ],
+  [
+    "re:(onClick:n\\},\"[^\"]*\"\\),\"[ \\u00a0]\",)\"page\\.\"",
+    "$1\"页面中管理此行为。\""
+  ],
+  [
+    "re:(\"strong\",null,\"TLS/SSL\"\\),)\" tab\\.\"",
+    "$1\" 标签页中添加。\""
+  ],
+  [
+    "re:\"and\"(,\"[ \\u00a0]\",c\\.createElement\\(u\\.Link,\\{href:\"https://www\\.mongodb\\.com/docs/manual/reference/command/collStats/\"\\})",
+    "\"和\"$1"
+  ],
+  [
+    "description:`AI-powered assistant to intelligently guide you through your database tasks. Get expert MongoDB help and streamline your workflow directly within ${e}.`",
+    "description:`AI 助手可智能引导您完成数据库任务。直接在 ${e} 内获取 MongoDB 专家级帮助，简化您的工作流程。`"
+  ],
+  [
+    "message:`Unknown read preference ${n}`",
+    "message:`未知的读偏好 ${n}`"
+  ],
+  [
+    "re:(throw new [A-Za-z_$]+\\()\"Invalid connection string\"\\)",
+    "$1\"连接字符串无效\")"
+  ],
+  [
+    "{type:q,title:q,iconGlyph:\"Logo\"}",
+    "{type:q,title:\"欢迎\",iconGlyph:\"Logo\"}"
+  ],
+  [
+    "{type:lt,title:lt,iconGlyph:\"CurlyBraces\"}",
+    "{type:lt,title:\"我的查询\",iconGlyph:\"CurlyBraces\"}"
+  ],
+  [
+    "\"NO_DIAGRAM_SELECTED\"===e.step?Cr:e.diagram?.name??Cr",
+    "\"NO_DIAGRAM_SELECTED\"===e.step?\"数据建模\":e.diagram?.name??\"数据建模\""
+  ],
+  [
+    "title:`Performance: ${o}`",
+    "title:`性能: ${o}`"
+  ],
+  [
+    "Math.max(o(!0).length,o(!1).length)",
+    "Math.max(...[o(!0),o(!1)].map((e=>[...e].reduce(((e,t)=>e+(t.charCodeAt(0)>255?2:1)),0))))"
+  ],
+  [
+    "a.createElement(\"span\",null,\"of \",t??a.createElement(s.Tooltip",
+    "a.createElement(\"span\",null,\"共 \",t??a.createElement(s.Tooltip"
+  ],
+  [
+    "\"Showing \",e,\" – \",t",
+    "\"显示 \",e,\" – \",t"
+  ],
+  [
+    "Xe=(0,r.AH)({display:\"flex\",alignItems:\"center\"}),et=",
+    "Xe=(0,r.AH)({display:\"flex\",alignItems:\"center\",whiteSpace:\"nowrap\"}),et="
+  ],
+  [
+    "project:{name:\"project\",type:",
+    "project:{name:\"project\",label:\"投影\",type:"
+  ],
+  [
+    "sort:{name:\"sort\",type:",
+    "sort:{name:\"sort\",label:\"排序\",type:"
+  ],
+  [
+    "collation:{name:\"collation\",type:",
+    "collation:{name:\"collation\",label:\"排序规则\",type:"
+  ],
+  [
+    "skip:{name:\"skip\",type:",
+    "skip:{name:\"skip\",label:\"跳过\",type:"
+  ],
+  [
+    "limit:{name:\"limit\",type:",
+    "limit:{name:\"limit\",label:\"限制\",type:"
+  ],
+  [
+    "placeholder:\"{ field: -1 } or [['field', -1]]\"",
+    "placeholder:\"{ field: -1 } 或 [['field', -1]]\""
+  ],
+  [
+    "placeholder:'{ field: -1 } or \"indexName\"'",
+    "placeholder:'{ field: -1 } 或 \"indexName\"'"
+  ]
+]

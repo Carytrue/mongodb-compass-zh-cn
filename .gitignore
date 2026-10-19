@@ -1,0 +1,6 @@
+node_modules/
+*.asar
+*.asar.*
+*.orig
+out/
+.DS_Store

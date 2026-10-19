@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-compass-zh-cn",
+  "version": "0.1.0",
+  "description": "Unofficial Simplified Chinese (zh-CN) localization patcher for MongoDB Compass",
+  "license": "MIT",
+  "bin": {
+    "compass-zh": "bin/compass-zh.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mongodb", "compass", "i18n", "zh-CN", "chinese", "localization"],
+  "files": ["bin", "src", "data", "README.md", "README.en.md", "LICENSE"]
+}
