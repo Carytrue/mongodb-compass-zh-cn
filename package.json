@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "description": "Unofficial Simplified Chinese (zh-CN) localization patcher for MongoDB Compass",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carytrue/mongodb-compass-zh-cn.git"
+  },
+  "homepage": "https://github.com/Carytrue/mongodb-compass-zh-cn#readme",
+  "bugs": "https://github.com/Carytrue/mongodb-compass-zh-cn/issues",
   "bin": {
     "compass-zh": "bin/compass-zh.js"
   },

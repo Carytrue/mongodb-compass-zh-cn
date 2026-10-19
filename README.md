@@ -23,7 +23,7 @@
 需要 [Node.js](https://nodejs.org/) 18 或更新版本。
 
 ```bash
-git clone <本仓库地址>
+git clone https://github.com/Carytrue/mongodb-compass-zh-cn.git
 cd mongodb-compass-zh-cn
 node bin/compass-zh.js info            # 检查检测到的 Compass 版本
 node bin/compass-zh.js install --dry   # 先试跑，只看匹配情况，不写文件
