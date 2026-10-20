@@ -4,6 +4,8 @@
 
 **MongoDB Compass 汉化补丁**：给 [MongoDB Compass](https://www.mongodb.com/products/tools/compass) 桌面版做界面汉化的小工具。Compass 本身没有多语言支持，所以这个项目的做法是：**读取你电脑上已安装的 `app.asar`，把界面文案按词典替换成中文，再写回去**。仓库里不包含任何 Compass 的程序文件，只有汉化工具和词典。
 
+![汉化前后对比](docs/compare.png)
+
 ![MongoDB Compass 中文界面：文档页](docs/documents.png)
 
 ![MongoDB Compass 中文界面：集合列表](docs/collections.png)

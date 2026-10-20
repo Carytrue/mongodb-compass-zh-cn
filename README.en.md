@@ -4,6 +4,8 @@
 
 Compass has no built-in i18n, so this tool localizes the desktop app by **reading the `app.asar` you already have installed, replacing UI strings with Chinese according to a dictionary, and writing the result back**. The repository contains no Compass program files – only the patcher and the dictionary.
 
+![Before and after](docs/compare.png)
+
 ![Compass in Chinese: documents tab](docs/documents.png)
 
 > Unofficial and not affiliated with MongoDB, Inc. "MongoDB" and "Compass" are trademarks of MongoDB, Inc., used here only to say which software this tool is for.
