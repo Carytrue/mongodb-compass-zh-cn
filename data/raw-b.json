@@ -1,0 +1,698 @@
+[
+ [
+  "document.createTextNode(`${n} or `)",
+  "document.createTextNode(`${n} 或 `)"
+ ],
+ [
+  "title:`Generate ${t}`}",
+  "title:`生成${{query:\"查询\",aggregation:\"聚合\"}[t]??t}`}"
+ ],
+ [
+  "\"aria-label\":\"Open query history\"",
+  "\"aria-label\":\"打开查询历史\""
+ ],
+ [
+  "\"aria-label\":\"Explain query\"",
+  "\"aria-label\":\"解释查询\""
+ ],
+ [
+  "\"aria-label\":\"Reset query\"",
+  "\"aria-label\":\"重置查询\""
+ ],
+ [
+  "\"aria-label\":\"Export query to language\"",
+  "\"aria-label\":\"导出查询为编程语言\""
+ ],
+ [
+  "\"aria-label\":\"Update number of documents per page\"",
+  "\"aria-label\":\"每页文档数\""
+ ],
+ [
+  "\"aria-label\":\"Refresh documents\"",
+  "\"aria-label\":\"刷新文档\""
+ ],
+ [
+  "\"aria-label\":\"Previous Page\"",
+  "\"aria-label\":\"上一页\""
+ ],
+ [
+  "\"aria-label\":\"Next Page\"",
+  "\"aria-label\":\"下一页\""
+ ],
+ [
+  "\"aria-label\":\"Output Options\"",
+  "\"aria-label\":\"输出选项\""
+ ],
+ [
+  "\"aria-label\":\"Document list\"",
+  "\"aria-label\":\"文档列表\""
+ ],
+ [
+  "\"aria-label\":\"E-JSON View\"",
+  "\"aria-label\":\"E-JSON 视图\""
+ ],
+ [
+  "\"aria-label\":\"Table View\"",
+  "\"aria-label\":\"表格视图\""
+ ],
+ [
+  "\"aria-label\":\"Edit document\"",
+  "\"aria-label\":\"编辑文档\""
+ ],
+ [
+  "\"aria-label\":\"Copy document to clipboard\"",
+  "\"aria-label\":\"复制文档到剪贴板\""
+ ],
+ [
+  "\"aria-label\":\"Clone document\"",
+  "\"aria-label\":\"克隆文档\""
+ ],
+ [
+  "\"aria-label\":\"Remove document\"",
+  "\"aria-label\":\"移除文档\""
+ ],
+ [
+  "\"aria-label\":\"Collection Tabs\"",
+  "\"aria-label\":\"集合页签\""
+ ],
+ [
+  "\"aria-label\":\"Revert changes\"",
+  "\"aria-label\":\"还原更改\""
+ ],
+ [
+  "\"aria-label\":\"Remove field\"",
+  "\"aria-label\":\"移除字段\""
+ ],
+ [
+  "\"aria-label\":\"Select date and time\"",
+  "\"aria-label\":\"选择日期和时间\""
+ ],
+ [
+  "\"aria-label\":\"Zoom in\"",
+  "\"aria-label\":\"放大\""
+ ],
+ [
+  "\"aria-label\":\"Zoom out\"",
+  "\"aria-label\":\"缩小\""
+ ],
+ [
+  "\"aria-label\":\"Show previous insight\"",
+  "\"aria-label\":\"上一条洞察\""
+ ],
+ [
+  "\"aria-label\":\"Show next insight\"",
+  "\"aria-label\":\"下一条洞察\""
+ ],
+ [
+  "re:\"This query ran without an index\\. If you plan on using this query\",\" \",(\\w+)\\.createElement\\(\"strong\",null,\"heavily\"\\),\" in your application, you should create an index that covers this query\\.\"",
+  "\"此查询未使用索引。如果您计划在应用程序中\",$1.createElement(\"strong\",null,\"频繁\"),\"使用该查询，建议创建一个覆盖此查询的索引。\""
+ ],
+ [
+  "re:\"This query ran without an index\\. If you plan on using this query\",\" \",(\\w+)\\.createElement\\(\"strong\",null,\"heavily\"\\),\" in your application, you should create an index that covers this aggregation\\.\"",
+  "\"此查询未使用索引。如果您计划在应用程序中\",$1.createElement(\"strong\",null,\"频繁\"),\"使用该查询，建议创建一个覆盖此聚合的索引。\""
+ ],
+ [
+  "re:\"This aggregation ran without an index\\. If you plan on using this query\",\" \",(\\w+)\\.createElement\\(\"strong\",null,\"heavily\"\\),\" in your application, you should create an index that covers this aggregation\\.\"",
+  "\"此聚合未使用索引。如果您计划在应用程序中\",$1.createElement(\"strong\",null,\"频繁\"),\"使用该聚合，建议创建一个覆盖此聚合的索引。\""
+ ],
+ [
+  "b.length,\" insights\"):s.createElement(s.Fragment,null,s.createElement(le,{glyph:\"Bulb\",size:\"small\"}),\" insight\")",
+  "b.length,\" 个洞察\"):s.createElement(s.Fragment,null,s.createElement(le,{glyph:\"Bulb\",size:\"small\"}),\" 洞察\")"
+ ],
+ [
+  "I=E?`${`${b.length} insights`.length}ch`:\"calc(14px + 8ch)\"",
+  "I=E?`${2*`${b.length} 个洞察`.length}ch`:\"calc(14px + 5em)\""
+ ],
+ [
+  "re:createElement\\(\"span\",null,\"Insight \",(\\w+)\\.createElement\\(\"strong\",null,e\\+1\\),\" of \",",
+  "createElement(\"span\",null,\"洞察 \",$1.createElement(\"strong\",null,e+1),\" / \","
+ ],
+ [
+  "\"Interpret in progress\"",
+  "\"正在解读\""
+ ],
+ [
+  "\"Not supported for this query\"",
+  "\"此查询不支持\""
+ ],
+ [
+  "\"Assistant is not available\"",
+  "\"助手不可用\""
+ ],
+ [
+  "{\"Index Name\":e.details?.indexName,\"Multi Key Index\":e.details?.isMultiKey}",
+  "{\"索引名称\":e.details?.indexName,\"多键索引\":e.details?.isMultiKey}"
+ ],
+ [
+  "{\"Transform by\":JSON.stringify(e.details?.transformBy)}",
+  "{\"转换方式\":JSON.stringify(e.details?.transformBy)}"
+ ],
+ [
+  "{\"Documents Examined\":e.details?.docsExamined}",
+  "{\"检查的文档数\":e.details?.docsExamined}"
+ ],
+ [
+  "value:\"boolean\"==typeof t?t?\"yes\":\"no\":t",
+  "value:\"boolean\"==typeof t?t?\"是\":\"否\":t"
+ ],
+ [
+  "void 0===n?i:r.createElement(r.Fragment,null,r.createElement(\"strong\",null,a(n)),\" \",i)",
+  "void 0===n?i:\"string\"==typeof i&&i.includes(\"|\")?r.createElement(r.Fragment,null,i.split(\"|\")[0],r.createElement(\"strong\",null,a(n)),i.split(\"|\")[1]):r.createElement(r.Fragment,null,r.createElement(\"strong\",null,a(n)),\" \",i)"
+ ],
+ [
+  "label:\"documents returned\"",
+  "label:\"返回 | 个文档\""
+ ],
+ [
+  "label:\"documents examined\"",
+  "label:\"检查了 | 个文档\""
+ ],
+ [
+  "formatter:e=>`${String(e)} ms`,label:\"execution time\"",
+  "formatter:e=>`${String(e)} 毫秒`,label:\"执行时间 |\""
+ ],
+ [
+  "formatter:e=>e?\"Is\":\"Is not\",label:\"sorted in memory\"",
+  "formatter:e=>e?\"已在内存中\":\"未在内存中\",label:\"|排序\""
+ ],
+ [
+  "label:\"index keys examined\"",
+  "label:\"检查了 | 个索引键\""
+ ],
+ [
+  "COVERED:\"Query covered by index:\",MULTIPLE:\"Query used the following indexes (shard results differ):\",INDEX:\"Query used the following index:\"",
+  "COVERED:\"查询被以下索引覆盖：\",MULTIPLE:\"查询使用了以下索引（各分片结果不同）：\",INDEX:\"查询使用了以下索引：\""
+ ],
+ [
+  "re:\"The index\\(es\\) used to fulfill the query\\. A value of\",\" \",(\\w+\\.createElement\\(\\w+\\.IndexIcon,\\{className:\\w+,direction:1\\}\\)),\" \",\"indicates an ascending index, and a value of\",\" \",(\\w+\\.createElement\\(\\w+\\.IndexIcon,\\{className:\\w+,direction:-1\\}\\)),\" \",\"indicates a descending index\\.\"",
+  "\"用于满足查询的索引。值为 \",$1,\" 表示升序索引，值为 \",$2,\" 表示降序索引。\""
+ ],
+ [
+  "\"number\"!=typeof r?\"Update documents\":1===r?\"Update 1 document\":`Update ${r} documents`",
+  "\"number\"!=typeof r?\"更新文档\":1===r?\"更新 1 个文档\":`更新 ${r} 个文档`"
+ ],
+ [
+  "title:`Delete ${t??\"\"} document${1===t?\"\":\"s\"}`",
+  "title:`删除 ${t??\"\"} 个文档`"
+ ],
+ [
+  "\"Preview (sample of \",o.length,\" document\",1===o.length?\"\":\"s\",\")\"",
+  "\"预览（样本共 \",o.length,\" 个文档）\""
+ ],
+ [
+  "\"Delete \",t??\"\",\" document\",1===t?\"\":\"s\")",
+  "\"删除 \",t??\"\",\" 个文档\")"
+ ],
+ [
+  "\"Export results from the \",n?\"aggregation\":\"query\",\" below\"",
+  "\"导出下方\",n?\"聚合\":\"查询\",\"的结果\""
+ ],
+ [
+  "\"You can also use the \",r.createElement(\"b\",null,\"投影\"),\" field in the query bar to specify which fields to return or export.\"",
+  "\"您也可以使用查询栏中的 \",r.createElement(\"b\",null,\"投影\"),\" 字段来指定要返回或导出的字段。\""
+ ],
+ [
+  "\"Only projected fields will be exported. To export all fields, go back and leave the \",r.createElement(\"b\",null,\"投影\"),\" field empty.\"",
+  "\"仅会导出投影中的字段。若要导出所有字段，请返回并将 \",r.createElement(\"b\",null,\"投影\"),\" 字段留空。\""
+ ],
+ [
+  "subtitle:a?`Aggregation on ${e}`:`Collection ${e}`",
+  "subtitle:a?`对 ${e} 的聚合`:`集合 ${e}`"
+ ],
+ [
+  "{name:\"All Files\"",
+  "{name:\"所有文件\""
+ ],
+ [
+  "description:'Example:  { \"fortyTwo\": 42, \"oneHalf\": 0.5, \"bignumber\": { \"$numberLong\"",
+  "description:'示例：{ \"fortyTwo\": 42, \"oneHalf\": 0.5, \"bignumber\": { \"$numberLong\""
+ ],
+ [
+  "description:'Example: { \"fortyTwo\": 42, \"oneHalf\": 0.5, \"bignumber\": 5000000000 }. Large numbers (>= 2^^53) will change with this format.'",
+  "description:'示例：{ \"fortyTwo\": 42, \"oneHalf\": 0.5, \"bignumber\": 5000000000 }。大数字（>= 2^^53）在此格式下会发生变化。'"
+ ],
+ [
+  "description:'Example: { \"fortyTwo\": { \"$numberInt\"",
+  "description:'示例：{ \"fortyTwo\": { \"$numberInt\""
+ ],
+ [
+  "\"Error creating output file: \",o)",
+  "\"创建输出文件时出错：\",o)"
+ ],
+ [
+  "||\"Error creating output file.\"",
+  "||\"创建输出文件时出错。\""
+ ],
+ [
+  "\"The fields in the table below are from a \",r.createElement(\"b\",null,\"sample\"),\" of documents in the collection. Add missing fields you want to export.\"",
+  "\"下表中的字段来自集合中文档的\",r.createElement(\"b\",null,\"样本\"),\"。请添加您想导出但缺失的字段。\""
+ ],
+ [
+  "g?\"Deselect all fields\":\"Select all fields\"",
+  "g?\"取消全选字段\":\"全选字段\""
+ ],
+ [
+  "\"aria-label\":\"Select all fields\"",
+  "\"aria-label\":\"全选字段\""
+ ],
+ [
+  "`${e.checked?\"Exclude\":\"Include\"} ${e.fieldLabel} in exported collection`",
+  "`${e.checked?\"从导出的集合中排除\":\"在导出的集合中包含\"} ${e.fieldLabel}`"
+ ],
+ [
+  "\"Show \",100,\" more fields\"",
+  "\"显示另外 \",100,\" 个字段\""
+ ],
+ [
+  "\"aria-label\":\"Enter a field to include in the export\"",
+  "\"aria-label\":\"输入要包含在导出中的字段\""
+ ],
+ [
+  "\"aria-label\":\"Add field\"",
+  "\"aria-label\":\"添加字段\""
+ ],
+ [
+  "'Press \"Enter\" to add field'",
+  "'按 \"Enter\" 添加字段'"
+ ],
+ [
+  "`Unable to load fields to export: ${e}`",
+  "`无法加载要导出的字段：${e}`"
+ ],
+ [
+  "title:`Exporting \"${e}\"…`",
+  "title:`正在导出 \"${e}\"…`"
+ ],
+ [
+  "`Processing documents before exporting, ${a} document${1!==a?\"s\":\"\"} processed.`",
+  "`导出前正在处理文档，已处理 ${a} 个文档。`"
+ ],
+ [
+  "title:`Exporting \"${t}\" to ${ze().basename(e)}…`",
+  "title:`正在将 \"${t}\" 导出到 ${ze().basename(e)}…`"
+ ],
+ [
+  "oa=e=>`${e} document${1!==e?\"s\":\"\"} written.`",
+  "oa=e=>`已写入 ${e} 个文档。`"
+ ],
+ [
+  "a.createElement(\"div\",{className:Vt},a.createElement(s.Label,{htmlFor:n},e),a.createElement(s.InfoSprinkle,{align:\"right\"}",
+  "a.createElement(\"div\",{className:Vt,style:{flexShrink:0}},a.createElement(s.Label,{htmlFor:n,style:{whiteSpace:\"nowrap\"}},e),a.createElement(s.InfoSprinkle,{align:\"right\"}"
+ ],
+ [
+  "\"data-testid\":\"export-button\",id:u,autoFocus:!0}",
+  "\"data-testid\":\"export-button\",id:u,autoFocus:!0,style:{whiteSpace:\"nowrap\",flexShrink:0,minWidth:\"max-content\"}}"
+ ],
+ [
+  "\"{}\"===t?\"None\":t",
+  "\"{}\"===t?\"无\":t"
+ ],
+ [
+  "re:`To[ \\u00a0]collection[ \\u00a0]\\$\\{l\\}`",
+  "`到集合 $${l}`"
+ ],
+ [
+  "re:`To[ \\u00a0]collection[ \\u00a0]\\$\\{t\\}`",
+  "`到集合 $${t}`"
+ ],
+ [
+  "\"aria-label\":\"Delimiter\"",
+  "\"aria-label\":\"分隔符\""
+ ],
+ [
+  "\"aria-label\":\"Field type\"",
+  "\"aria-label\":\"字段类型\""
+ ],
+ [
+  "\"aria-label\":\"Types documentation\"",
+  "\"aria-label\":\"类型文档\""
+ ],
+ [
+  "value:\"\\t\",label:\"Tab\"",
+  "value:\"\\t\",label:\"制表符\""
+ ],
+ [
+  "re:\"This[ \\u00a0]field[ \\u00a0]has\",\"[ \\u00a0]\",\"number\"===t\\?\"mixed[ \\u00a0]numeric[ \\u00a0]types\":\"mixed[ \\u00a0]data[ \\u00a0]types\",\":\"",
+  "\"此字段包含\",\"number\"===t?\"混合的数值类型\":\"混合的数据类型\",\"：\""
+ ],
+ [
+  "re:\"Row[ \\u00a0]\",a\\.firstRowIndex\\+1,\"[ \\u00a0]contains[ \\u00a0]the[ \\u00a0]value\",\"[ \\u00a0]\",",
+  "\"第 \",a.firstRowIndex+1,\" 行包含值\",\" \","
+ ],
+ [
+  "re:\"\\.[ \\u00a0]This[ \\u00a0]will[ \\u00a0]cause[ \\u00a0]an[ \\u00a0]error[ \\u00a0]for[ \\u00a0]type\",\"[ \\u00a0]\",w\\[t\\],\"\\.\"",
+  "\"。这将导致类型 \",w[t],\" 出错。\""
+ ],
+ [
+  "||\"empty string\"",
+  "||\"空字符串\""
+ ],
+ [
+  "\"undefined\"===e?\"Blank\":w[e]",
+  "\"undefined\"===e?\"空白\":w[e]"
+ ],
+ [
+  "re:`\\$\\{e\\.path\\}[ \\u00a0]values[ \\u00a0]will[ \\u00a0]be[ \\u00a0]imported`",
+  "`将导入 $${e.path} 的值`"
+ ],
+ [
+  "re:`Values[ \\u00a0]for[ \\u00a0]\\$\\{e\\.path\\}[ \\u00a0]will[ \\u00a0]be[ \\u00a0]ignored`",
+  "`将忽略 $${e.path} 的值`"
+ ],
+ [
+  "re:`Importing[ \\u00a0]\\$\\{ze\\(\\)\\.basename\\(e\\)\\}…`",
+  "`正在导入 $${ze().basename(e)}…`"
+ ],
+ [
+  "re:`\\$\\{n\\}[ \\u00a0]document\\$\\{1!==n\\?\"s\":\"\"\\}[ \\u00a0]written\\.`",
+  "`已写入 $${n} 个文档。`"
+ ],
+ [
+  "re:`[ \\u00a0]\\$\\{a\\}[ \\u00a0]error\\$\\{1!==a\\?\"s\":\"\"\\}\\.`",
+  "` $${a} 个错误。`"
+ ],
+ [
+  "re:`Import[ \\u00a0]completed[ \\u00a0]\\$\\{t\\}\\/\\$\\{n\\}[ \\u00a0]with[ \\u00a0]errors:`",
+  "`导入完成 $${t}/$${n}，但存在错误：`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]document\\$\\{1===e\\?\"\":\"s\"\\}[ \\u00a0]imported\\.`",
+  "`已导入 $${e} 个文档。`"
+ ],
+ [
+  "re:`Unable[ \\u00a0]to[ \\u00a0]load[ \\u00a0]the[ \\u00a0]file\\.[ \\u00a0]Make[ \\u00a0]sure[ \\u00a0]the[ \\u00a0]file[ \\u00a0]is[ \\u00a0]valid[ \\u00a0]CSV[ \\u00a0]or[ \\u00a0]JSON\\.[ \\u00a0]Error:[ \\u00a0]\\$\\{n\\?\\.message\\}`",
+  "`无法加载文件。请确保文件是有效的 CSV 或 JSON。错误：$${n?.message}`"
+ ],
+ [
+  "re:\"Importing…\"",
+  "\"正在导入…\""
+ ],
+ [
+  "Modified:\"Document modified.\"",
+  "Modified:\"文档已修改。\""
+ ],
+ [
+  "UpdateStart:\"Updating document…\"",
+  "UpdateStart:\"正在更新文档…\""
+ ],
+ [
+  "UpdateSuccess:\"Document updated.\"",
+  "UpdateSuccess:\"文档已更新。\""
+ ],
+ [
+  "DeleteStart:\"Removing document…\"",
+  "DeleteStart:\"正在移除文档…\""
+ ],
+ [
+  "DeleteSuccess:\"Document deleted.\"",
+  "DeleteSuccess:\"文档已删除。\""
+ ],
+ [
+  "\"UpdateBlocked\"===h?\"Replace\":\"更新\"",
+  "\"UpdateBlocked\"===h?\"替换\":\"更新\""
+ ],
+ [
+  "re:`\\{\\}[ \\u00a0]\\$\\{this\\.getLength\\(\\)\\}[ \\u00a0]fields`",
+  "`{} $${this.getLength()} 个字段`"
+ ],
+ [
+  "re:`\\[\\][ \\u00a0]\\$\\{this\\.getLength\\(\\)\\}[ \\u00a0]elements`",
+  "`[] $${this.getLength()} 个元素`"
+ ],
+ [
+  "new Intl.RelativeTimeFormat(\"en\",{numeric:\"auto\"})",
+  "new Intl.RelativeTimeFormat(\"zh-CN\",{numeric:\"auto\"})"
+ ],
+ [
+  "new Intl.DateTimeFormat(\"en\",{dateStyle:\"long\"})",
+  "new Intl.DateTimeFormat(\"zh-CN\",{dateStyle:\"long\"})"
+ ],
+ [
+  "re:\"Queries[ \\u00a0]in\",\"[ \\u00a0]\",a\\.createElement\\(\"span\",\\{className:r\\?ut:pt,title:n\\},n\\)\\)",
+  "a.createElement(\"span\",{className:r?ut:pt,title:n},n),\"中的查询\")"
+ ],
+ [
+  "{\"data-testid\":\"query-history-query-label\",className:Tt},e)",
+  "{\"data-testid\":\"query-history-query-label\",className:Tt},{filter:\"筛选\",project:\"投影\",sort:\"排序\",collation:\"排序规则\",skip:\"跳过\",limit:\"限制\",maxTimeMS:\"最长时间（毫秒）\",hint:\"索引提示\"}[e]??e)"
+ ],
+ [
+  "\"aria-label\":\"Favorite Query\"",
+  "\"aria-label\":\"收藏查询\""
+ ],
+ [
+  "\"aria-label\":\"Copy Query to Clipboard\"",
+  "\"aria-label\":\"复制查询到剪贴板\""
+ ],
+ [
+  "\"aria-label\":\"Delete Query from List\"",
+  "\"aria-label\":\"从列表中删除查询\""
+ ],
+ [
+  "\"aria-label\":\"Open in Modal\"",
+  "\"aria-label\":\"在弹窗中打开\""
+ ],
+ [
+  "\"aria-label\":i,title:i,rightGlyph:s.createElement(le,{glyph:i})",
+  "\"aria-label\":{SortDescending:\"降序排序\",SortAscending:\"升序排序\"}[i]??i,title:{SortDescending:\"降序排序\",SortAscending:\"升序排序\"}[i]??i,rightGlyph:s.createElement(le,{glyph:i})"
+ ],
+ [
+  "re:\"\\(sample[ \\u00a0]of[ \\u00a0]\",t\\.changes\\.length,\"[ \\u00a0]document\",1===t\\.changes\\.length\\?\"\":\"s\",\"\\)\"",
+  "\"（样本共 \",t.changes.length,\" 个文档）\""
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]document[ \\u00a0]is[ \\u00a0]being[ \\u00a0]updated\\.`",
+  "`正在更新 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]documents[ \\u00a0]are[ \\u00a0]being[ \\u00a0]updated\\.`",
+  "`正在更新 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]document[ \\u00a0]has[ \\u00a0]been[ \\u00a0]updated\\.`",
+  "`已更新 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]documents[ \\u00a0]have[ \\u00a0]been[ \\u00a0]updated\\.`",
+  "`已更新 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]document[ \\u00a0]is[ \\u00a0]being[ \\u00a0]deleted\\.`",
+  "`正在删除 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]documents[ \\u00a0]are[ \\u00a0]being[ \\u00a0]deleted\\.`",
+  "`正在删除 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]document[ \\u00a0]has[ \\u00a0]been[ \\u00a0]deleted\\.`",
+  "`已删除 $${e} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]documents[ \\u00a0]have[ \\u00a0]been[ \\u00a0]deleted\\.`",
+  "`已删除 $${e} 个文档。`"
+ ],
+ [
+  "re:`Delete[ \\u00a0]\\$\\{t\\?`\\$\\{t\\}[ \\u00a0]`:\"\"\\}[ \\u00a0]document\\$\\{1!==t\\?\"s\":\"\"\\}`",
+  "`删除$${t?` $${t} `:\"\"}个文档`"
+ ],
+ [
+  "re:`This[ \\u00a0]action[ \\u00a0]can[ \\u00a0]not[ \\u00a0]be[ \\u00a0]undone\\.[ \\u00a0]This[ \\u00a0]will[ \\u00a0]permanently[ \\u00a0]delete[ \\u00a0]\\$\\{t\\?\\?\"an[ \\u00a0]unknown[ \\u00a0]number[ \\u00a0]of\"\\}[ \\u00a0]document\\$\\{1!==t\\?\"s\":\"\"\\}\\.`",
+  "`此操作无法撤销。这将永久删除 $${t??\"未知数量的\"} 个文档。`"
+ ],
+ [
+  "re:`\\$\\{e\\}[ \\u00a0]added[ \\u00a0]to[ \\u00a0]\"My[ \\u00a0]Queries\"\\.`",
+  "`$${e} 已添加到“我的查询”。`"
+ ],
+ [
+  "re:`An[ \\u00a0]error[ \\u00a0]occured[ \\u00a0]when[ \\u00a0]attempting[ \\u00a0]to[ \\u00a0]update[ \\u00a0]the[ \\u00a0]document:[ \\u00a0]\\$\\{String\\(t\\.message\\)\\}`",
+  "`尝试更新文档时出错：$${String(t.message)}`"
+ ],
+ [
+  "re:,\"[ \\u00a0]instead[ \\u00a0]of[ \\u00a0]\",a\\.createElement\\(\"code\",null,l\\),\"\\)\\?\"\\)",
+  ",\" 而非 \",a.createElement(\"code\",null,l),\"）？\")"
+ ],
+ [
+  "\"Convert to Long\"",
+  "\"转换为 Long\""
+ ],
+ [
+  "\"Convert all to Long\"",
+  "\"全部转换为 Long\""
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]a[ \\u00a0]number`",
+  "`\"$${e}\" 不是数字`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]a[ \\u00a0]date`",
+  "`\"$${e}\" 不是日期`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]null`",
+  "`\"$${e}\" 不是 null`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]a[ \\u00a0]regular[ \\u00a0]expression`",
+  "`\"$${e}\" 不是正则表达式`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]\\$MinKey`",
+  "`\"$${e}\" 不是 $$MinKey`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]\\$MaxKey`",
+  "`\"$${e}\" 不是 $$MaxKey`"
+ ],
+ [
+  "re:`\"\\$\\{e\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]an[ \\u00a0]ObjectId`",
+  "`\"$${e}\" 不是 ObjectId`"
+ ],
+ [
+  "re:`\"\\$\\{l\\}\"[ \\u00a0]is[ \\u00a0]not[ \\u00a0]a[ \\u00a0]number[ \\u00a0]\\(found[ \\u00a0]\"\\$\\{c\\}\"\\)[ \\u00a0]\\[Col[ \\u00a0]\\$\\{i\\}\\]`",
+  "`\"$${l}\" 不是数字（实际为 \"$${c}\"）[第 $${i} 列]`"
+ ],
+ [
+  "re:\\[Col[ \\u00a0]\\$\\{i\\}\\]",
+  "[第 $${i} 列]"
+ ],
+ [
+  "re:`\\[Row[ \\u00a0]\\$\\{e\\}\\]`",
+  "`[第 $${e} 行]`"
+ ],
+ [
+  "re:`[ \\u00a0]\\[Index[ \\u00a0]\\$\\{e-1\\}\\]`",
+  "` [索引 $${e-1}]`"
+ ],
+ [
+  "new Error(\"Value is not an object\")",
+  "new Error(\"值不是对象\")"
+ ],
+ [
+  "new Error(\"Cannot determine the file type\")",
+  "new Error(\"无法确定文件类型\")"
+ ],
+ [
+  "re:`File[ \\u00a0]\\$\\{e\\}[ \\u00a0]not[ \\u00a0]found`",
+  "`未找到文件 $${e}`"
+ ],
+ [
+  "\"\\nMore errors occurred, open the error log to view.\\n\"",
+  "\"\\n还有更多错误，请打开错误日志查看。\\n\""
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]download[ \\u00a0]\\$\\{t\\}`:\"Download[ \\u00a0]failed\"",
+  "`下载 $${t} 失败`:\"下载失败\""
+ ],
+ [
+  "re:`Compass[ \\u00a0]\\$\\{t\\}[ \\u00a0]is[ \\u00a0]available`",
+  "`Compass $${t} 现已发布`"
+ ],
+ [
+  "re:`Compass[ \\u00a0]\\$\\{e\\}[ \\u00a0]is[ \\u00a0]downloading`",
+  "`正在下载 Compass $${e}`"
+ ],
+ [
+  "re:`Compass[ \\u00a0]\\$\\{e\\}[ \\u00a0]installed[ \\u00a0]successfully`",
+  "`Compass $${e} 安装成功`"
+ ],
+ [
+  "re:\"Compass[ \\u00a0]is[ \\u00a0]ready[ \\u00a0]to[ \\u00a0]update[ \\u00a0]to[ \\u00a0]\",e,\"!\"",
+  "\"Compass 已准备好更新到 \",e,\"！\""
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]create[ \\u00a0]shard[ \\u00a0]key:[ \\u00a0]\\$\\{n\\.message\\}`",
+  "`创建分片键失败：$${n.message}`"
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]cancel[ \\u00a0]the[ \\u00a0]sharding[ \\u00a0]process:[ \\u00a0]\\$\\{t\\.message\\}`",
+  "`取消分片过程失败：$${t.message}`"
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]fetch[ \\u00a0]sharding[ \\u00a0]zones:[ \\u00a0]\\$\\{t\\.message\\}`",
+  "`获取分片区域失败：$${t.message}`"
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]unmanage[ \\u00a0]namespace:[ \\u00a0]\\$\\{t\\.message\\}`",
+  "`取消托管命名空间失败：$${t.message}`"
+ ],
+ [
+  "re:`Only[ \\u00a0]\\$\\{e\\}[ \\u00a0]connection\\$\\{e>1\\?\"s\":\"\"\\}[ \\u00a0]can[ \\u00a0]be[ \\u00a0]connected[ \\u00a0]to[ \\u00a0]at[ \\u00a0]the[ \\u00a0]same[ \\u00a0]time\\.[ \\u00a0]First[ \\u00a0]disconnect[ \\u00a0]from[ \\u00a0]another[ \\u00a0]connection\\.`",
+  "`最多只能同时连接 $${e} 个连接。请先断开其他连接。`"
+ ],
+ [
+  "re:`Unable[ \\u00a0]to[ \\u00a0]connect[ \\u00a0]to[ \\u00a0]\\$\\{\\(0,o\\.T8\\)\\(e\\)\\}`",
+  "`无法连接到 $${(0,o.T8)(e)}`"
+ ],
+ [
+  "re:`Reason:[ \\u00a0]\\$\\{He\\(t\\)\\}\\.[ \\u00a0]To[ \\u00a0]continue[ \\u00a0]to[ \\u00a0]use[ \\u00a0]this[ \\u00a0]connection[ \\u00a0]either[ \\u00a0]disconnect[ \\u00a0]and[ \\u00a0]reconnect,[ \\u00a0]or[ \\u00a0]refresh[ \\u00a0]your[ \\u00a0]page\\.`",
+  "`原因：$${He(t)}。要继续使用此连接，请断开后重新连接，或刷新页面。`"
+ ],
+ [
+  "re:`Failed[ \\u00a0]to[ \\u00a0]authenticate[ \\u00a0]for[ \\u00a0]\\$\\{\\(0,o\\.T8\\)\\(e\\)\\}`",
+  "`$${(0,o.T8)(e)} 身份验证失败`"
+ ],
+ [
+  "\"data-testid\":\"cancel-connection-button\"},\"CANCEL\")",
+  "\"data-testid\":\"cancel-connection-button\"},\"取消\")"
+ ],
+ [
+  "\"aria-label\":e?\"Collapse field items\":\"Expand field items\"",
+  "\"aria-label\":e?\"折叠字段项\":\"展开字段项\""
+ ],
+ [
+  "\"aria-label\":\"Undo change\"",
+  "\"aria-label\":\"撤销更改\""
+ ],
+ [
+  "\"aria-label\":\"Expand field\"",
+  "\"aria-label\":\"展开字段\""
+ ],
+ [
+  "\"aria-label\":\"Saved query name\"",
+  "\"aria-label\":\"已保存的查询名称\""
+ ],
+ [
+  "{label:r?\"Collapse all fields\":\"Expand all fields\"",
+  "{label:r?\"折叠所有字段\":\"展开所有字段\""
+ ],
+ [
+  "{label:o?\"Cancel editing\":\"Edit document\"",
+  "{label:o?\"取消编辑\":\"编辑文档\""
+ ],
+ [
+  "(e=\"No field\",",
+  "(e=\"无字段\","
+ ],
+ [
+  "(e=\"Deleted field\",",
+  "(e=\"已删除的字段\","
+ ],
+ [
+  "&&(e=\"New Field\")",
+  "&&(e=\"新字段\")"
+ ],
+ [
+  "\"Add array element to \"",
+  "\"添加数组元素到 \""
+ ],
+ [
+  "\"Add field to \"",
+  "\"添加字段到 \""
+ ],
+ [
+  "\"Add array element after \"",
+  "\"在其后添加数组元素 \""
+ ],
+ [
+  "\"Add field after \"",
+  "\"在其后添加字段 \""
+ ],
+ [
+  "re:`The[ \\u00a0]count[ \\u00a0]is[ \\u00a0]not[ \\u00a0]available[ \\u00a0]for[ \\u00a0]this[ \\u00a0]query\\.[ \\u00a0]This[ \\u00a0]can[ \\u00a0]happen[ \\u00a0]when[ \\u00a0]the[ \\u00a0]count[ \\u00a0]operation[ \\u00a0]fails[ \\u00a0]or[ \\u00a0]exceeds[ \\u00a0]the[ \\u00a0]maxTimeMS[ \\u00a0]of[ \\u00a0]\\$\\{m\\}\\.`",
+  "`此查询的文档数不可用。当计数操作失败或超过 maxTimeMS（$${m}）时可能出现这种情况。`"
+ ],
+ [
+  "['The content is outdated and no longer in sync\\nwith the current query. Press \"Find\" again to see the results for\\nthe current query.']",
+  "['内容已过期，与当前查询不再同步。请再次点击“查找”以查看当前查询的结果。']"
+ ]
+]

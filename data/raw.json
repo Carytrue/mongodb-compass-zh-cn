@@ -266,5 +266,13 @@
   [
     "placeholder:'{ field: -1 } or \"indexName\"'",
     "placeholder:'{ field: -1 } 或 \"indexName\"'"
+  ],
+  [
+    "label:\"favorite\"===e.savedConnectionType?\"Unfavorite connection\":\"Favorite connection\"",
+    "label:\"favorite\"===e.savedConnectionType?\"取消收藏连接\":\"收藏连接\""
+  ],
+  [
+    "o.createElement(\"div\",null,o.createElement(i.Button,{size:\"small\",leftGlyph:o.createElement(i.Icon,{glyph:\"Disconnect\"}),onClick:d},\"断开连接\"))",
+    "o.createElement(\"div\",{style:{flexShrink:0,whiteSpace:\"nowrap\"}},o.createElement(i.Button,{size:\"small\",leftGlyph:o.createElement(i.Icon,{glyph:\"Disconnect\"}),onClick:d},\"断开连接\"))"
   ]
 ]

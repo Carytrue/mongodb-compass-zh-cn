@@ -1,0 +1,542 @@
+[
+  [
+    "Atlas only. Requires MongoDB ${o}+ to run on a view. To use a search index on a view on MongoDB 8.0, query the view’s source collection ${t}. ",
+    "仅限 Atlas。需要 MongoDB ${o}+ 才能在视图上运行。若要在 MongoDB 8.0 的视图上使用搜索索引，请查询该视图的源集合 ${t}。"
+  ],
+  [
+    "Atlas only. Requires MongoDB ${o}+ to run on a view. ",
+    "仅限 Atlas。需要 MongoDB ${o}+ 才能在视图上运行。"
+  ],
+  [
+    "\"Atlas only. Only views containing $match stages with the $expr operator, $addFields, or $set are compatible with search indexes. \"",
+    "\"仅限 Atlas。只有包含带 $expr 运算符的 $match 阶段、$addFields 或 $set 的视图才与搜索索引兼容。\""
+  ],
+  [
+    "(K(e.env)?\"Atlas only. \":\"\")",
+    "(K(e.env)?\"仅限 Atlas。\":\"\")"
+  ],
+  [
+    "\"\"===e?\"Untitled\":a.createElement(i.Tooltip",
+    "\"\"===e?\"未命名\":a.createElement(i.Tooltip"
+  ],
+  [
+    "className:Tr},\"Text\"))",
+    "className:Tr},\"文本\"))"
+  ],
+  [
+    "\"aria-label\":\"Open saved pipelines\"",
+    "\"aria-label\":\"打开已保存的管道\""
+  ],
+  [
+    "\"aria-label\":\"Explain aggregation\"",
+    "\"aria-label\":\"解释聚合\""
+  ],
+  [
+    "\"aria-label\":\"Run aggregation\"",
+    "\"aria-label\":\"运行聚合\""
+  ],
+  [
+    "\"aria-label\":\"Toggle Stage Wizard\"",
+    "\"aria-label\":\"切换阶段向导\""
+  ],
+  [
+    "t&&a.createElement(\"span\",{className:sr},\" – modified\")",
+    "t&&a.createElement(\"span\",{className:sr},\" – 已修改\")"
+  ],
+  [
+    "{weight:\"medium\"},\"Stage \",t.idxInPipeline+1)",
+    "{weight:\"medium\"},\"阶段 \",t.idxInPipeline+1)"
+  ],
+  [
+    "\"An error occurred on\",\" \",a.createElement(i.Link,{as:\"button\",onClick:R},\"Stage \",p+1),\".\"",
+    "\"在\",\" \",a.createElement(i.Link,{as:\"button\",onClick:R},\"阶段 \",p+1),\" 发生错误。\""
+  ],
+  [
+    "\"Preview unavailable — error on\",\" \",a.createElement(i.Link,{as:\"button\",onClick:()=>{document.querySelector(`[data-stage-index=\"${p}\"]`)?.scrollIntoView({behavior:\"smooth\",block:\"center\"})}},\"Stage \",p+1),\".\")",
+    "\"预览不可用 — 错误位于\",\" \",a.createElement(i.Link,{as:\"button\",onClick:()=>{document.querySelector(`[data-stage-index=\"${p}\"]`)?.scrollIntoView({behavior:\"smooth\",block:\"center\"})}},\"阶段 \",p+1),\"。\")"
+  ],
+  [
+    "o?`Documents will be saved to ${o}.`:a.createElement(a.Fragment,null,a.createElement(\"span\",null,\"Output preview after\",\" \",a.createElement(ms,{stageOperator:e,description:n,link:r??void 0}),\" \",\"stage\"),\" \",a.createElement(\"span\",{\"data-testid\":\"stage-preview-toolbar-tooltip\"},\"(Sample of \",t,\" \",1!==t?\"documents\":\"document\",\")\"))",
+    "o?`文档将保存到 ${o}。`:a.createElement(a.Fragment,null,a.createElement(\"span\",null,\"在\",\" \",a.createElement(ms,{stageOperator:e,description:n,link:r??void 0}),\" \",\"阶段之后的输出预览\"),\" \",a.createElement(\"span\",{\"data-testid\":\"stage-preview-toolbar-tooltip\"},\"（样本共 \",t,\" 个文档）\"))"
+  ],
+  [
+    "n=\"Stage value is invalid\",",
+    "n=\"阶段值无效\","
+  ],
+  [
+    "n=\"Stage value can not be empty\",",
+    "n=\"阶段值不能为空\","
+  ],
+  [
+    ":\"Stage value can not be empty\":\"Stage operator is required\"",
+    ":\"阶段值不能为空\":\"必须指定阶段运算符\""
+  ],
+  [
+    "n=\"Unrecognized pipeline stage name\"+(t?`: '${t}'`:\"\")",
+    "n=\"无法识别的管道阶段名称\"+(t?`：'${t}'`:\"\")"
+  ],
+  [
+    "\"aria-label\":\"count results\",as:\"button\",\"data-testid\":\"pipeline-pagination-count-action\",hideExternalIcon:!0,className:qr,onClick:()=>n()},\"count results\")",
+    "\"aria-label\":\"统计结果数\",as:\"button\",\"data-testid\":\"pipeline-pagination-count-action\",hideExternalIcon:!0,className:qr,onClick:()=>n()},\"统计结果数\")"
+  ],
+  [
+    "\"\\n  In order to have the final count of documents we need to run the\\n  aggregation again. This will be the equivalent of adding a\\n  $count as the last stage of the pipeline.\\n\"",
+    "\"要获得最终文档数，需要再次运行聚合。这相当于在管道末尾添加一个 $count 阶段。\""
+  ],
+  [
+    "a.createElement(i.Body,null,\"of \",t),e?a.createElement(Zr,{title:\"Refreshing document count\"})",
+    "a.createElement(i.Body,null,\"共 \",t),e?a.createElement(Zr,{title:\"正在刷新文档数\"})"
+  ],
+  [
+    "\"aria-label\":\"Previous page\"",
+    "\"aria-label\":\"上一页\""
+  ],
+  [
+    "\"aria-label\":\"Next page\"",
+    "\"aria-label\":\"下一页\""
+  ],
+  [
+    "so=\"Output Options\",lo=",
+    "so=\"输出选项\",lo="
+  ],
+  [
+    "h&&a.createElement(i.Body,null,\"Sample of \",m,\" \",g)",
+    "h&&a.createElement(i.Body,null,\"样本共 \",m,\" 个文档\")"
+  ],
+  [
+    "v&&a.createElement(i.Body,null,\"Sample of \",y,\" \",b)",
+    "v&&a.createElement(i.Body,null,\"样本共 \",y,\" 个文档\")"
+  ],
+  [
+    "\"Saved Pipelines in\",\" \",a.createElement(\"span\",{className:s?fa:ya,title:e},e)",
+    "a.createElement(\"span\",{className:s?fa:ya,title:e},e),\" 中已保存的管道\""
+  ],
+  [
+    "title:`Export ${S} To Language`",
+    "title:`导出${{Query:\"查询\",\"Delete Query\":\"删除查询\",\"Update Query\":\"更新查询\",Pipeline:\"管道\"}[S]??S}为代码语言`"
+  ],
+  [
+    "className:O},\"My \",S)",
+    "className:O},\"我的\",({Query:\"查询\",\"Delete Query\":\"删除查询\",\"Update Query\":\"更新查询\",Pipeline:\"管道\"}[S]??S))"
+  ],
+  [
+    "className:O},\"Exported \",S)",
+    "className:O},\"导出的\",({Query:\"查询\",\"Delete Query\":\"删除查询\",\"Update Query\":\"更新查询\",Pipeline:\"管道\"}[S]??S))"
+  ],
+  [
+    "label:`Stage ${n+1}: ${e??\"select\"}`",
+    "label:`阶段 ${n+1}：${e??\"select\"}`"
+  ],
+  [
+    "$={width:`calc(${String(Math.max(...B.map((({label:e})=>e.length))))}ch + ${i.spacing[800]}px)`}",
+    "$={width:`calc(${String(Math.max(...B.map((({label:e})=>e.length)))+4)}ch + ${i.spacing[800]}px)`}"
+  ],
+  [
+    "t?\"Enabled\":\"Disabled\"),a.createElement(i.Toggle",
+    "t?\"已启用\":\"已禁用\"),a.createElement(i.Toggle"
+  ],
+  [
+    "width:`${String(Math.max(...[\"Enabled\",\"Disabled\"].map((e=>e.length))))}ch`}",
+    "width:\"4em\",whiteSpace:\"nowrap\"}"
+  ],
+  [
+    "\"aria-label\":t?\"Disable stage\":\"Enable stage\"",
+    "\"aria-label\":t?\"禁用阶段\":\"启用阶段\""
+  ],
+  [
+    "\"aria-label\":\"Select a stage operator\"",
+    "\"aria-label\":\"选择阶段运算符\""
+  ],
+  [
+    "o=t?\"Exclude stage from pipeline\":\"Include stage in pipeline\"",
+    "o=t?\"从管道中排除阶段\":\"将阶段加入管道\""
+  ],
+  [
+    "\"aria-label\":\"Edit previous stage\"",
+    "\"aria-label\":\"编辑上一阶段\""
+  ],
+  [
+    "\"aria-label\":\"Edit next stage\"",
+    "\"aria-label\":\"编辑下一阶段\""
+  ],
+  [
+    "\"aria-label\":\"Select stage to edit\"",
+    "\"aria-label\":\"选择要编辑的阶段\""
+  ],
+  [
+    "\"data-text\":\"Add stage after\"",
+    "\"data-text\":\"在此阶段之后添加\""
+  ],
+  [
+    "\"data-text\":\"Add stage before\"",
+    "\"data-text\":\"在此阶段之前添加\""
+  ],
+  [
+    "t?\"Add $search stage\":\"Learn about search\"",
+    "t?\"添加 $search 阶段\":\"了解搜索\""
+  ],
+  [
+    "\"To get started add the\"",
+    "\"要开始，请添加\""
+  ],
+  [
+    "},\"first stage.\")",
+    "},\"第一个阶段。\")"
+  ],
+  [
+    "\"Suggest a new use case\"",
+    "\"建议新的使用场景\""
+  ],
+  [
+    "title:\"A write operation will occur\"",
+    "title:\"将执行写入操作\""
+  ],
+  [
+    "\"This pipeline will execute a\",\" \",a.createElement(i.Link,{hideExternalIcon:!1,href:t.link,target:\"_blank\"},t.name),\" \",\"operation,\",\" \",n?a.createElement(a.Fragment,null,e,' \"',a.createElement(\"b\",null,n),'\"'):a.createElement(a.Fragment,null,\"that may alter or overwrite a collection\"),\". Do you wish to proceed?\"",
+    "\"此管道将执行\",\" \",a.createElement(i.Link,{hideExternalIcon:!1,href:t.link,target:\"_blank\"},t.name),\" \",\"操作，\",\" \",n?a.createElement(a.Fragment,null,{overwriting:\"覆盖\",creating:\"创建\",altering:\"修改\"}[e]??e,' \"',a.createElement(\"b\",null,n),'\"'):a.createElement(a.Fragment,null,\"这可能会更改或覆盖集合\"),\"。是否继续？\""
+  ],
+  [
+    "a(\"Failed to load pipelines\",e)",
+    "a(\"加载管道失败\",e)"
+  ],
+  [
+    "r(\"Unexpected error updating view\",t)",
+    "r(\"更新视图时出现意外错误\",t)"
+  ],
+  [
+    "\"$rankFusion\"),\", or \",a.createElement(i.Link",
+    "\"$rankFusion\"),\"，或 \",a.createElement(i.Link"
+  ],
+  [
+    "\"Optimize performance and cost by using $rerank after retrieving preliminary results from a stage like \",Yo,\".\"",
+    "\"在 \",Yo,\" 等阶段检索初步结果之后再使用 $rerank，可优化性能和成本。\""
+  ],
+  [
+    "\"Query rate limits exceeded\"",
+    "\"查询速率限制已超出\""
+  ],
+  [
+    "\"Add a payment method\"",
+    "\"添加支付方式\""
+  ],
+  [
+    "\"autoEmbedding\"===t?\"Query rate limit exceeded\":\"Rate limit exceeded\"",
+    "\"autoEmbedding\"===t?\"查询速率限制已超出\":\"速率限制已超出\""
+  ],
+  [
+    "`Exceeded ${e.limit}${t?` ${Mi[t]}`:\"\"} requests per minute rate limit`",
+    "`已超出${t?` ${Mi[t]} 的`:\"\"}每分钟请求数速率限制（${e.limit}）`"
+  ],
+  [
+    "`Exceeded ${e.limit} tokens per minute rate limit${t?` for ${Mi[t]}`:\"\"}`",
+    "`已超出${t?` ${Mi[t]} 的`:\"\"}每分钟令牌数速率限制（${e.limit}）`"
+  ],
+  [
+    "\".\",s&&a.createElement(a.Fragment,null,\" \",a.createElement(i.Link,{href:s,target:\"_blank\",onClick:()=>o(\"Search Extension Rate Limit Page Link Clicked\"",
+    "\"。\",s&&a.createElement(a.Fragment,null,\" \",a.createElement(i.Link,{href:s,target:\"_blank\",onClick:()=>o(\"Search Extension Rate Limit Page Link Clicked\""
+  ],
+  [
+    "\"View Rate Limit\"",
+    "\"查看速率限制\""
+  ],
+  [
+    "a.createElement(\"strong\",null,\"$rerank not enabled\")",
+    "a.createElement(\"strong\",null,\"$rerank 未启用\")"
+  ],
+  [
+    "\"Upgrade your cluster to MongoDB \",vi,\"+ to use $rerank.\"",
+    "\"请将集群升级到 MongoDB \",vi,\"+ 以使用 $rerank。\""
+  ],
+  [
+    "\"The \",e,\" stage is only available with MongoDB Atlas. Create a free cluster or connect to an Atlas cluster to build search indexes and use \",e,\" aggregation stage to run fast, relevant search queries.\"",
+    "\"\",e,\" 阶段仅在 MongoDB Atlas 中可用。创建免费集群或连接到 Atlas 集群，即可构建搜索索引并使用 \",e,\" 聚合阶段来运行快速、相关的搜索查询。\""
+  ],
+  [
+    "},\"Investigate no results\")",
+    "},\"排查无结果原因\")"
+  ],
+  [
+    "},\"Analyze & Refine Results\")",
+    "},\"分析并优化结果\")"
+  ],
+  [
+    "`${c} index doesn't exist.`",
+    "`${c}索引不存在。`"
+  ],
+  [
+    "d=e?`${c} index '${e}' doesn't exist.`",
+    "d=e?`${c}索引“${e}”不存在。`"
+  ],
+  [
+    "\"Vector search\":\"Search\"",
+    "\"向量搜索\":\"搜索\""
+  ],
+  [
+    "\"),\" or \",a.createElement(i.Link,{onClick:()=>{s(\"Search Index Create Link Clicked\"",
+    "\"),\" 或 \",a.createElement(i.Link,{onClick:()=>{s(\"Search Index Create Link Clicked\""
+  ],
+  [
+    "\"Persisting Documents\",\" \",e?`to ${e}`:\"...\"",
+    "\"正在持久化文档\",\" \",e?`到 ${e}`:\"...\""
+  ],
+  [
+    "\"Documents persisted to \"+((p=o)?`collection: ${p}`:\"specified collection\")",
+    "\"文档已持久化到\"+((p=o)?`集合：${p}`:\"指定的集合\")"
+  ],
+  [
+    "text:`Documents persisted to collection specified by ${e}.`",
+    "text:`文档已持久化到 ${e} 指定的集合。`"
+  ],
+  [
+    "}),\"Save documents\")",
+    "}),\"保存文档\")"
+  ],
+  [
+    "\"Results persisted\",e?` in ${e} namespace`:\"\"",
+    "\"结果已持久化\",e?`（命名空间：${e}）`:\"\""
+  ],
+  [
+    "\"data-testid\":\"pipeline-results-error-retry-button\",className:Yu},\"RETRY\")",
+    "\"data-testid\":\"pipeline-results-error-retry-button\",className:Yu},\"重试\")"
+  ],
+  [
+    "progressText:l?\"Persisting documents\"+(c?` to ${c} namespace`:\"\"):\"Running aggregation\"",
+    "progressText:l?\"正在持久化文档\"+(c?` 到 ${c} 命名空间`:\"\"):\"正在运行聚合\""
+  ],
+  [
+    "className:Pl},\"Join documents from\")",
+    "className:Pl},\"联接来自以下集合的文档\")"
+  ],
+  [
+    "className:Pl},\"where\")",
+    "className:Pl},\"其中\")"
+  ],
+  [
+    "className:Pl},\"matches\")",
+    "className:Pl},\"匹配\")"
+  ],
+  [
+    "className:Pl},\"as\")",
+    "className:Pl},\"输出为\")"
+  ],
+  [
+    "\"Name of the array\"",
+    "\"数组名称\""
+  ],
+  [
+    "\"Select a collection first.\"",
+    "\"请先选择集合。\""
+  ],
+  [
+    "new Error(\"Enter all the fields\")",
+    "new Error(\"请填写所有字段\")"
+  ],
+  [
+    "new Error(\"Select one group accumulator\")",
+    "new Error(\"请选择一个分组累加器\")"
+  ],
+  [
+    "className:Zl},\"grouped by\")",
+    "className:Zl},\"分组依据\")"
+  ],
+  [
+    "className:Gc},\"Return the\")",
+    "className:Gc},\"返回\")"
+  ],
+  [
+    "a.createElement(i.Body,null,\"of\")),a.createElement(hl,{className:Yc,\"aria-label\":\"Select project field names\"",
+    "a.createElement(i.Body,null,\"个，字段为\")),a.createElement(hl,{className:Yc,\"aria-label\":\"Select project field names\""
+  ],
+  [
+    "\"aria-label\":\"Select project field names\",placeholder:\"Select project field names\"",
+    "\"aria-label\":\"选择投影字段名\",placeholder:\"选择投影字段名\""
+  ],
+  [
+    "className:Gc},\"from a group of\")",
+    "className:Gc},\"所属分组：\")"
+  ],
+  [
+    "\"aria-label\":\"Select group field names\",placeholder:\"Select group field names\"",
+    "\"aria-label\":\"选择分组字段名\",placeholder:\"选择分组字段名\""
+  ],
+  [
+    "className:Gc},\"documents from a list sorted by\")",
+    "className:Gc},\"文档，排序依据\")"
+  ],
+  [
+    "\"aria-label\":\"Select sort field names\",placeholder:\"Select sort field names\"",
+    "\"aria-label\":\"选择排序字段名\",placeholder:\"选择排序字段名\""
+  ],
+  [
+    "a.createElement(i.Body,null,\"in\"),a.createElement(i.Select,{className:Kc",
+    "a.createElement(i.Body,null,\"按\"),a.createElement(i.Select,{className:Kc"
+  ],
+  [
+    "a.createElement(i.Body,null,\"order\")",
+    "a.createElement(i.Body,null,\"顺序\")"
+  ],
+  [
+    "\"Number of records is not valid.\"",
+    "\"记录数无效。\""
+  ],
+  [
+    "\"Accumulator fields are required.\"",
+    "\"必须指定累加器字段。\""
+  ],
+  [
+    "\"Sort fields are required.\"",
+    "\"必须指定排序字段。\""
+  ],
+  [
+    "\"Accumulator is required.\"",
+    "\"必须指定累加器。\""
+  ],
+  [
+    "\"aria-label\":\"Number of records\"",
+    "\"aria-label\":\"记录数\""
+  ],
+  [
+    "\"aria-label\":\"Select accumulator\"",
+    "\"aria-label\":\"选择累加器\""
+  ],
+  [
+    "\"Nested Group\"))",
+    "\"嵌套分组\"))"
+  ],
+  [
+    "\"aria-label\":\"Add nested group\"",
+    "\"aria-label\":\"添加嵌套分组\""
+  ],
+  [
+    "\"aria-label\":\"Remove group\"",
+    "\"aria-label\":\"移除分组\""
+  ],
+  [
+    "t?\"Select fields\":\"Select a field\"",
+    "t?\"选择字段\":\"选择字段\""
+  ],
+  [
+    "0===e?\"Sort documents by\":\"and\"",
+    "0===e?\"排序依据\":\"然后按\""
+  ],
+  [
+    "a.createElement(i.Body,null,\"Group documents based on\")",
+    "a.createElement(i.Body,null,\"按以下字段对文档分组\")"
+  ],
+  [
+    "new Error(\"Group fields cannot be empty\")",
+    "new Error(\"分组字段不能为空\")"
+  ],
+  [
+    "new Error(\"No field selected\")",
+    "new Error(\"未选择字段\")"
+  ],
+  [
+    "\"aria-label\":\"Select projection type\"",
+    "\"aria-label\":\"选择投影类型\""
+  ],
+  [
+    "rc=\"Select an operator\",oc=\"Expected value\",ic=\"Select a type\"",
+    "rc=\"选择运算符\",oc=\"期望值\",ic=\"选择类型\""
+  ],
+  [
+    "className:td},\"Perform a\")",
+    "className:td},\"执行\")"
+  ],
+  [
+    "\"aria-label\":\"Select search type\"",
+    "\"aria-label\":\"选择搜索类型\""
+  ],
+  [
+    "{value:\"text\"},\"text search\")",
+    "{value:\"text\"},\"文本搜索\")"
+  ],
+  [
+    "{value:\"fuzzy\"},\"fuzzy search\")",
+    "{value:\"fuzzy\"},\"模糊搜索\")"
+  ],
+  [
+    "a.createElement(i.Body,null,\"with \",a.createElement(\"span\",{id:\"maxEdits-input-label\"},\"maxEdits\"))",
+    "a.createElement(i.Body,null,\"使用 \",a.createElement(\"span\",{id:\"maxEdits-input-label\"},\"maxEdits\"))"
+  ],
+  [
+    "placeholder:\"e.g 2\"",
+    "placeholder:\"例如 2\""
+  ],
+  [
+    "className:td},\"for all documents where\")",
+    "className:td},\"适用于所有满足以下条件的文档：\")"
+  ],
+  [
+    "\"aria-label\":\"Select search path\"",
+    "\"aria-label\":\"选择搜索路径\""
+  ],
+  [
+    "{value:\"fields\"},\"field names\")",
+    "{value:\"fields\"},\"字段名\")"
+  ],
+  [
+    "{value:\"wildcard\"},\"any fields\")",
+    "{value:\"wildcard\"},\"任意字段\")"
+  ],
+  [
+    "className:td},\"contains\")",
+    "className:td},\"包含\")"
+  ],
+  [
+    "placeholder:\"text\",\"aria-labelledby\":\"\",\"data-testid\":\"text-search-contains-input\",\"aria-label\":\"text\"",
+    "placeholder:\"文本\",\"aria-labelledby\":\"\",\"data-testid\":\"text-search-contains-input\",\"aria-label\":\"文本\""
+  ],
+  [
+    "a.createElement(i.Body,null,\"using\")",
+    "a.createElement(i.Body,null,\"使用索引\")"
+  ],
+  [
+    "\"aria-label\":\"Select or type a search index\",placeholder:\"Select or type a search index\"",
+    "\"aria-label\":\"选择或输入搜索索引\",placeholder:\"选择或输入搜索索引\""
+  ],
+  [
+    "new Error(\"No max edits provided.\")",
+    "new Error(\"未提供 maxEdits。\")"
+  ],
+  [
+    "new Error(\"Max edits must be either 1 or 2.\")",
+    "new Error(\"maxEdits 必须为 1 或 2。\")"
+  ],
+  [
+    "new Error(\"No search text provided\")",
+    "new Error(\"未提供搜索文本\")"
+  ],
+  [
+    "new Error(\"No fields provided.\")",
+    "new Error(\"未提供字段。\")"
+  ],
+  [
+    "a.createElement(\"b\",null,\"$rerank not enabled\")",
+    "a.createElement(\"b\",null,\"$rerank 未启用\")"
+  ],
+  [
+    "label:`Score: ${r.value}`",
+    "label:`得分：${r.value}`"
+  ],
+  [
+    "\"aria-label\":\"Open stage in focus mode\"",
+    "\"aria-label\":\"在专注模式下打开阶段\""
+  ],
+  [
+    "\"aria-label\":\"Select foreign field\"",
+    "\"aria-label\":\"选择外部字段\""
+  ],
+  [
+    "\"aria-label\":\"Select local field\"",
+    "\"aria-label\":\"选择本地字段\""
+  ],
+  [
+    "\"aria-label\":\"Select collection\"",
+    "\"aria-label\":\"选择集合\""
+  ],
+  [
+    "title:\"Can't parse pipeline source to stages\",description:`Loaded pipeline \"${t}\" contains syntax errors`",
+    "title:\"无法将管道源码解析为阶段\",description:`已加载的管道 \"${t}\" 包含语法错误`"
+  ]
+]

@@ -1,0 +1,246 @@
+[
+  [
+    "statusText:`Connected to ${r}`",
+    "statusText:`已连接到 ${r}`"
+  ],
+  [
+    "statusText:`Failed to connect to ${r}`",
+    "statusText:`无法连接到 ${r}`"
+  ],
+  [
+    "statusText:`Connecting to ${r}`",
+    "statusText:`正在连接到 ${r}`"
+  ],
+  [
+    "title:`Connected to ${(0,o.T8)(e)}`",
+    "title:`已连接到 ${(0,o.T8)(e)}`"
+  ],
+  [
+    "title:`Connecting to ${(0,o.T8)(e)}`",
+    "title:`正在连接到 ${(0,o.T8)(e)}`"
+  ],
+  [
+    "\"aria-label\":\"Workspace Tabs\"",
+    "\"aria-label\":\"工作区标签页\""
+  ],
+  [
+    "\"aria-label\":\"Close Tab\"",
+    "\"aria-label\":\"关闭标签页\""
+  ],
+  [
+    "\"aria-label\":\"Create new tab\"",
+    "\"aria-label\":\"新建标签页\""
+  ],
+  [
+    "\"aria-label\":\"Close modal\"",
+    "\"aria-label\":\"关闭对话框\""
+  ],
+  [
+    "\"aria-label\":\"Filter connections\"",
+    "\"aria-label\":\"筛选连接\""
+  ],
+  [
+    "{term:\"Stats\",description:",
+    "{term:\"统计\",description:"
+  ],
+  [
+    "`${a} DB${1===a?\"\":\"s\"}`",
+    "`${a} 个数据库`"
+  ],
+  [
+    "`${o} Collection${1===o?\"\":\"s\"}`",
+    "`${o} 个集合`"
+  ],
+  [
+    "let a=1===n.length?\"Host\":\"Hosts\";return t===w.TopologyType.LOAD_BALANCED&&(a+=\" (Load Balancer)\")",
+    "let a=1===n.length?\"主机\":\"主机\";return t===w.TopologyType.LOAD_BALANCED&&(a+=\"（负载均衡器）\")"
+  ],
+  [
+    "o=\"Sharded\",i=T(a.length,\"Mongos\",\"Mongoses\")",
+    "o=\"分片\",i=T(a.length,\"Mongos 节点\",\"Mongos 节点\")"
+  ],
+  [
+    "o=`Replica Set ${n}`,i=T(a.length,\"Node\",\"Nodes\")",
+    "o=`副本集 ${n}`,i=T(a.length,\"节点\",\"节点\")"
+  ],
+  [
+    "function T(e,t,n){return 1===e?`1 ${t}`:`${e} ${n}`}",
+    "function T(e,t,n){return`${e} 个${1===e?t:n}`}"
+  ],
+  [
+    "term:\"Cluster\",description:",
+    "term:\"集群\",description:"
+  ],
+  [
+    "term:\"Edition\",description:",
+    "term:\"版本\",description:"
+  ],
+  [
+    "term:\"SSH Connection Via\"",
+    "term:\"SSH 连接方式\""
+  ],
+  [
+    "void 0===e?\"\":e?\"Enterprise\":\"Community\"",
+    "void 0===e?\"\":e?\"企业版\":\"社区版\""
+  ],
+  [
+    "h={Standalone:\"Standalone\",Mongos:\"Mongos\",PossiblePrimary:\"Possible Primary\",RSPrimary:\"Primary\",RSSecondary:\"Secondary\",RSArbiter:\"Arbiter\",RSOther:\"Other\",RSGhost:\"Ghost\",Unknown:\"Unknown\"}",
+    "h={Standalone:\"单机\",Mongos:\"Mongos\",PossiblePrimary:\"可能的主节点\",RSPrimary:\"主节点\",RSSecondary:\"从节点\",RSArbiter:\"仲裁节点\",RSOther:\"其他\",RSGhost:\"Ghost\",Unknown:\"未知\"}"
+  ],
+  [
+    "variant:l?\"primary\":\"default\"},l?\"Play\":\"Pause\")",
+    "variant:l?\"primary\":\"default\"},l?\"继续\":\"暂停\")"
+  ],
+  [
+    "labels:{title:\"read & write\",",
+    "labels:{title:\"读写\","
+  ],
+  [
+    "labels:{title:\"operations\",",
+    "labels:{title:\"操作\","
+  ],
+  [
+    "labels:{title:\"memory\",",
+    "labels:{title:\"内存\","
+  ],
+  [
+    "labels:{title:\"network\",",
+    "labels:{title:\"网络\","
+  ],
+  [
+    "units:\"conn\"",
+    "units:\"连接\""
+  ],
+  [
+    ".yLabel((e=>e.line))",
+    ".yLabel((e=>({aReads:\"活跃读\",aWrites:\"活跃写\",qReads:\"排队读\",qWrites:\"排队写\",insert:\"插入\",query:\"查询\",update:\"更新\",delete:\"删除\",command:\"命令\",getmore:\"GetMore\",virtual:\"虚拟\",resident:\"常驻\",mapped:\"映射\",bytesIn:\"入站字节\",bytesOut:\"出站字节\",connections:\"连接数\"})[e.line]??e.line))"
+  ],
+  [
+    ".y2Label((e=>e.line))",
+    ".y2Label((e=>({connections:\"连接数\"})[e.line]??e.line))"
+  ],
+  [
+    "top:\"Hottest Collections\",currentOp:\"Slowest Operations\",serverStatus:\"Stats Charts\"",
+    "top:\"最热集合\",currentOp:\"最慢的操作\",serverStatus:\"统计图表\""
+  ],
+  [
+    "re:,\"\\s*VIEW\"\\)",
+    ",\"视图\")"
+  ],
+  [
+    "{id:n,name:n,variant:\"darkgray\",hint:o.createElement(o.Fragment,null,Object.entries(",
+    "{id:n,name:\"排序规则\",variant:\"darkgray\",hint:o.createElement(o.Fragment,null,Object.entries("
+  ],
+  [
+    "{id:n,name:n,variant:\"darkgray\",icon:\"Visibility\",hint:",
+    "{id:n,name:\"视图\",variant:\"darkgray\",icon:\"Visibility\",hint:"
+  ],
+  [
+    "case\"capped\":case\"clustered\":return{id:n,name:n,variant:\"darkgray\"}",
+    "case\"capped\":case\"clustered\":return{id:n,name:{capped:\"固定集合\",clustered:\"聚簇\"}[n],variant:\"darkgray\"}"
+  ],
+  [
+    "{id:n,name:n,variant:\"darkgray\",icon:\"TimeSeries\",hint:t}",
+    "{id:n,name:\"时序\",variant:\"darkgray\",icon:\"TimeSeries\",hint:t}"
+  ],
+  [
+    "{id:n,name:\"Queryable Encryption\",variant:\"darkgray\",icon:\"Key\"}",
+    "{id:n,name:\"可查询加密\",variant:\"darkgray\",icon:\"Key\"}"
+  ],
+  [
+    "`Create ${t}`",
+    "`创建${\"database\"===t?\"数据库\":\"集合\"}`"
+  ],
+  [
+    "title:`Refreshing ${t}s`",
+    "title:`正在刷新${\"database\"===t?\"数据库\":\"集合\"}`"
+  ],
+  [
+    "label:`Delete ${e.name}`,tooltip:`Delete ${e.name}`",
+    "label:`删除 ${e.name}`,tooltip:`删除 ${e.name}`"
+  ],
+  [
+    "header:\"数据大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:80",
+    "header:\"数据大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:100"
+  ],
+  [
+    "header:\"平均文档大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:140",
+    "header:\"平均文档大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:150"
+  ],
+  [
+    "placeholder:\"选择值\"+(n.required?\"\":\" [optional]\")",
+    "placeholder:\"选择值\"+(n.required?\"\":\" [可选]\")"
+  ],
+  [
+    "a=e?\"Create Collection\":\"Create Database\"",
+    "a=e?\"创建集合\":\"创建数据库\""
+  ],
+  [
+    "re:\"data-lgid\":(\\w+)\\.optional,\"data-testid\":\\1\\.optional,className:",
+    "\"data-lgid\":$1.optional,\"data-testid\":$1.optional,style:{whiteSpace:\"nowrap\",minWidth:\"max-content\",flexShrink:0},className:"
+  ],
+  [
+    "re:(\\w+)\\.createElement\\(\"p\",null,\"可选\"\\)",
+    "$1.createElement(\"p\",{style:{whiteSpace:\"nowrap\"}},\"可选\")"
+  ],
+  [
+    ",d=l?\"Collection\":\"Database\";if(a(\"Screen\",{name:l?\"drop_collection_modal\"",
+    ",d=l?\"集合\":\"数据库\";if(a(\"Screen\",{name:l?\"drop_collection_modal\""
+  ],
+  [
+    "title:`Drop ${d}?`",
+    "title:`删除${d}？`"
+  ],
+  [
+    "description:`Are you sure you want to drop ${d.toLocaleLowerCase()} \"${r}\"?`",
+    "description:`确定要删除${d} \"${r}\" 吗？`"
+  ],
+  [
+    "buttonText:`Drop ${d}`",
+    "buttonText:`删除${d}`"
+  ],
+  [
+    "title:`${d} \"${r}\" dropped`",
+    "title:`${d} \"${r}\" 已删除`"
+  ],
+  [
+    "title:`Failed to drop ${d.toLocaleLowerCase()} \"${r}\"`",
+    "title:`删除${d} \"${r}\" 失败`"
+  ],
+  [
+    "'Type \"'.concat(m,'\" to confirm your action')",
+    "'输入 \"'.concat(m,'\" 以确认操作')"
+  ],
+  [
+    "\"confirmation-screen\"===e?\"Confirm rename collection\":\"Rename collection\"",
+    "\"confirmation-screen\"===e?\"确认重命名集合\":\"重命名集合\""
+  ],
+  [
+    "\"input-form\"===e?\"Proceed to Rename\":\"Yes, rename collection\"",
+    "\"input-form\"===e?\"继续重命名\":\"是，重命名集合\""
+  ],
+  [
+    "title:`Collection renamed to ${s}`",
+    "title:`集合已重命名为 ${s}`"
+  ],
+  [
+    "`Are you sure you want to rename \"${n}\" to \"${u}\"?`",
+    "`确定要将 \"${n}\" 重命名为 \"${u}\" 吗？`"
+  ],
+  [
+    "title:s?\"Duplicate View\":\"Create a View\"",
+    "title:s?\"复制视图\":\"创建视图\""
+  ],
+  [
+    "`Modifying pipeline backing \"${e.editViewName}\"`",
+    "`正在修改支持 \"${e.editViewName}\" 的管道`"
+  ],
+  [
+    "errorMessage:r?\"Field already exists.\":void 0",
+    "errorMessage:r?\"字段已存在。\":void 0"
+  ],
+  [
+    "return\"Name already exists\"",
+    "return\"名称已存在\""
+  ]
+]

@@ -9,7 +9,7 @@ Compass has no built-in i18n, so this tool localizes the desktop app by **readin
 ## Status
 
 - Verified against **Compass 1.53.0** on Windows 11 (Squirrel installer). Other versions are not guaranteed: minified file and variable names change on every release, so some exact-match rules may stop matching. The tool prints how many dictionary entries matched and refuses to install below 60 %.
-- ~920 dictionary entries plus 67 exact-match rules cover the welcome screen, sidebar, New Connection (all advanced options), Settings, collection tabs, import/export, data modeling, the AI assistant panel, the native menu and tab titles.
+- ~1450 dictionary entries plus 600+ exact-match rules (all `data/dict*.json` and `data/raw*.json` files are merged) cover the welcome screen, sidebar, New Connection (all advanced options), Settings, collection tabs, import/export, data modeling, the AI assistant panel, the native menu and tab titles.
 - Left in English on purpose: brand/technical terms, code samples, prompts that are sent to AI models, and server-side error messages.
 - macOS / Linux: untested (macOS builds may verify asar integrity).
 

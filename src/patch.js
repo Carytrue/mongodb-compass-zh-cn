@@ -10,10 +10,12 @@ const MARKER = '/* compass-zh-cn */';
 // Compass versions the dictionary has been checked against (see README).
 const TESTED_VERSIONS = ['1.53.0'];
 
+// data/dict.json + any data/dict-*.json (merged, later files win); data/raw.json + data/raw-*.json (concatenated)
 function loadData(dir = DATA_DIR) {
-  const dict = JSON.parse(fs.readFileSync(path.join(dir, 'dict.json'), 'utf8'));
-  const rawFile = path.join(dir, 'raw.json');
-  const raw = fs.existsSync(rawFile) ? JSON.parse(fs.readFileSync(rawFile, 'utf8')) : [];
+  const files = fs.readdirSync(dir).sort();
+  const pick = prefix => files.filter(f => f === prefix + '.json' || (f.startsWith(prefix + '-') && f.endsWith('.json')));
+  const dict = Object.assign({}, ...pick('dict').map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))));
+  const raw = [].concat(...pick('raw').map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))));
   return { dict, raw };
 }
 

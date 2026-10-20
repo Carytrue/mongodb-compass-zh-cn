@@ -1,0 +1,530 @@
+[
+ [
+  "'The schema content is outdated and no longer in sync with the documents view. Press \"Analyze\" again to see the schema for the current query.'",
+  "'架构内容已过期，与文档视图不再同步。请再次点击“分析”以查看当前查询的架构。'"
+ ],
+ [
+  "\"This report is based on a sample of \",a.createElement(\"b\",null,l),\" \",h,\".\"",
+  "\"此报告基于 \",a.createElement(\"b\",null,l),\" 个文档的样本。\""
+ ],
+ [
+  "\"aria-label\":\"Schema sampling documentation\"",
+  "\"aria-label\":\"架构抽样文档\""
+ ],
+ [
+  "An error occurred during schema analysis: ${t.errorMessage}",
+  "架构分析时出错：${t.errorMessage}"
+ ],
+ [
+  "The schema definition of ${n} has been copied to your clipboard in JSON format.",
+  "已将 ${n} 的架构定义以 JSON 格式复制到剪贴板。"
+ ],
+ [
+  "Document with ${n} nested field${1===n?\"\":\"s\"}.",
+  "包含 ${n} 个嵌套字段的文档。"
+ ],
+ [
+  "Array of documents with ${t} nested field${1===t?\"\":\"s\"}.",
+  "包含 ${t} 个嵌套字段的文档数组。"
+ ],
+ [
+  "a.createElement(\"li\",null,\"min: \",r),a.createElement(\"li\",null,\"average: \",o),a.createElement(\"li\",null,\"max: \",i)",
+  "a.createElement(\"li\",null,\"最小: \",r),a.createElement(\"li\",null,\"平均: \",o),a.createElement(\"li\",null,\"最大: \",i)"
+ ],
+ [
+  "(t?\"last: \":\"first: \")+l(e):0===t?\"inserted: \"+l(e)",
+  "(t?\"截止: \":\"起始: \")+l(e):0===t?\"插入时间: \"+l(e)"
+ ],
+ [
+  "\"min: \"+st().min(e)",
+  "\"最小: \"+st().min(e)"
+ ],
+ [
+  "\"max: \"+st().max(e)",
+  "\"最大: \"+st().max(e)"
+ ],
+ [
+  "s=[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"]",
+  "s=[\"周日\",\"周一\",\"周二\",\"周三\",\"周四\",\"周五\",\"周六\"]"
+ ],
+ [
+  "text:function(e){return e.label[0]}",
+  "text:function(e){return e.label.slice(-1)}"
+ ],
+ [
+  "${l?\"Remove\":\"Add\"} ${s} ${l?\"from\":\"to\"} query",
+  "${l?\"从查询中移除\":\"添加到查询\"} ${s}"
+ ],
+ [
+  "\"aria-label\":\"Refresh sample values\"",
+  "\"aria-label\":\"刷新样本值\""
+ ],
+ [
+  "\"aria-label\":c?\"Collapse Document Schema\":\"Expand Document Schema\"",
+  "\"aria-label\":c?\"折叠文档架构\":\"展开文档架构\""
+ ],
+ [
+  "expandedJSON:{title:\"已展开\"",
+  "expandedJSON:{title:\"扩展\""
+ ],
+ [
+  "An error occurred during schema export: ${e}",
+  "架构导出时出错：${e}"
+ ],
+ [
+  "subtitle:\"\\n          Try the new Export Schema to generate your collection schema in multiple formats.\\n          The previous 'Share Schema' experience will not be receiving future updates moving forward.\\n          \"",
+  "subtitle:\"试用全新的“导出架构”，以多种格式生成集合架构。此前的“分享架构”体验今后将不再更新。\""
+ ],
+ [
+  "\"In its place, you may refer to Data Explorer’s performance insights\"",
+  "\"您可以改为参考 Data Explorer 的性能洞察\""
+ ],
+ [
+  "\"Insight\"),\" \",\"or\",\" \",e.atlasMetadata",
+  "\"洞察\"),\" \",\"或\",\" \",e.atlasMetadata"
+ ],
+ [
+  "kn=\"Atlas’ Performance Advisor.\"",
+  "kn=\"Atlas 的性能顾问。\""
+ ],
+ [
+  "'This collection uses the \"constraint\" validation level, which guarantees every document matches the validator. The rules cannot be changed while it is in effect.'",
+  "'此集合使用“constraint”验证级别，可保证每个文档都符合验证器。该级别生效期间无法修改规则。'"
+ ],
+ [
+  "'This collection is prepared for an upgrade to the \"constraint\" validation level. The rules cannot be changed until the upgrade completes, or until the prepared state is cleared by running collMod with prepareConstraintValidationLevel: false.'",
+  "'此集合已准备升级到“constraint”验证级别。在升级完成之前，或在通过运行 collMod 并设置 prepareConstraintValidationLevel: false 清除准备状态之前，无法修改规则。'"
+ ],
+ [
+  "Error occured during rules generation: ${e.errorMessage}",
+  "生成规则时出错：${e.errorMessage}"
+ ],
+ [
+  "fe=(0,u.css)({width:2*u.spacing[1600]})",
+  "fe=(0,u.css)({width:2*u.spacing[1600]+32})"
+ ],
+ [
+  "\"aria-label\":t?\"Close Shell\":\"Open Shell\"",
+  "\"aria-label\":t?\"关闭 Shell\":\"打开 Shell\""
+ ],
+ [
+  "\"aria-label\":\"Shell Info\"",
+  "\"aria-label\":\"Shell 信息\""
+ ],
+ [
+  "a.createElement(p.Link,{href:\"https://www.mongodb.com/docs/compass/current/settings/settings-reference/#interface-settings\"},\"settings\"),\" \",\"and enable shell.\"",
+  "a.createElement(p.Link,{href:\"https://www.mongodb.com/docs/compass/current/settings/settings-reference/#interface-settings\"},\"设置\"),\" \",\"并启用 Shell。\""
+ ],
+ [
+  "\"Usage data unavailable\"",
+  "\"用法数据不可用\""
+ ],
+ [
+  "`(since ${t.toDateString()})`",
+  "`（自 ${t.toLocaleDateString(\"zh-CN\",{year:\"numeric\",month:\"long\",day:\"numeric\"})} 起）`"
+ ],
+ [
+  "${e} index hits since index creation or last server restart",
+  "自索引创建或上次服务器重启以来共命中 ${e} 次"
+ ],
+ [
+  "${e.toFixed(2)}% compared to largest index",
+  "为最大索引的 ${e.toFixed(2)}%"
+ ],
+ [
+  "`Building… ${Math.trunc(100*n)}%`",
+  "`正在构建… ${Math.trunc(100*n)}%`"
+ ],
+ [
+  "`Building For… ${(0,d.formatDuration)(t)}`",
+  "`已构建 ${(0,d.formatDuration)(t)}…`"
+ ],
+ [
+  "\"Building…\"",
+  "\"正在构建…\""
+ ],
+ [
+  "`Cancel Index ${e.name}`",
+  "`取消索引 ${e.name}`"
+ ],
+ [
+  "`Unhide Index ${e.name}`",
+  "`取消隐藏索引 ${e.name}`"
+ ],
+ [
+  "`Hide Index ${e.name}`",
+  "`隐藏索引 ${e.name}`"
+ ],
+ [
+  "`Drop Index ${e.name}`",
+  "`删除索引 ${e.name}`"
+ ],
+ [
+  "`Edit Index ${e.name}`",
+  "`编辑索引 ${e.name}`"
+ ],
+ [
+  "},e,a.createElement(d.Link,{hideExternalIcon:!0,\"aria-label\":e,className:Xt,href:t}",
+  "},({regular:\"常规\",unique:\"唯一\",compound:\"复合\",single:\"单字段\",sparse:\"稀疏\",partial:\"部分\",ttl:\"TTL\",hashed:\"哈希\",text:\"文本\",wildcard:\"通配符\",columnstore:\"列存储\",clustered:\"聚簇\",collation:\"排序规则\",hidden:\"已隐藏\",\"shard key\":\"分片键\",shardkey:\"分片键\",geospatial:\"地理空间\",unknown:\"未知\"})[String(e).toLowerCase()]??e,a.createElement(d.Link,{hideExternalIcon:!0,\"aria-label\":e,className:Xt,href:t}"
+ ],
+ [
+  "a.createElement(\"div\",{className:tn},i,a.createElement(d.Link,{hideExternalIcon:!0,\"aria-label\":i,href:r}",
+  "a.createElement(\"div\",{className:tn},({regular:\"常规\",unique:\"唯一\",compound:\"复合\",single:\"单字段\",sparse:\"稀疏\",partial:\"部分\",ttl:\"TTL\",hashed:\"哈希\",text:\"文本\",wildcard:\"通配符\",columnstore:\"列存储\",clustered:\"聚簇\",collation:\"排序规则\",hidden:\"已隐藏\",\"shard key\":\"分片键\",shardkey:\"分片键\",geospatial:\"地理空间\",unknown:\"未知\"})[String(i).toLowerCase()]??i,a.createElement(d.Link,{hideExternalIcon:!0,\"aria-label\":i,href:r}"
+ ],
+ [
+  "{name:\"Dynamic Mappings\"",
+  "{name:\"动态映射\""
+ ],
+ [
+  "a.createElement(\"span\",null,\"Your MongoDB version is \",e,\". Creating and managing search indexes on views \",!n&&\"in Compass\",\" is supported on MongoDB version 8.1 or higher. \",r)",
+  "a.createElement(\"span\",null,\"您的 MongoDB 版本为 \",e,\"。\",!n&&\"在 Compass 中\",\"创建和管理视图上的搜索索引需要 MongoDB 8.1 或更高版本。\",r)"
+ ],
+ [
+  "`Indexes: ${t}`,`Total Size: ${n}`,`Avg. Size: ${r}`",
+  "`索引数：${t}`,`总大小：${n}`,`平均大小：${r}`"
+ ],
+ [
+  "\"Define a\",\" \",a.createElement(d.Link,{href:\"https://www.mongodb.com/docs/atlas/atlas-search/manage-indexes/\",target:\"_blank\"},\"search\"),\" \",\"or\",\" \",a.createElement(d.Link,{href:\"https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-type/\",target:\"_blank\"},\"vector search index\"),\" \",\"to start using $search or $vectorSearch.\"",
+  "\"定义\",a.createElement(d.Link,{href:\"https://www.mongodb.com/docs/atlas/atlas-search/manage-indexes/\",target:\"_blank\"},\"搜索索引\"),\" \",\"或\",\" \",a.createElement(d.Link,{href:\"https://www.mongodb.com/docs/atlas/atlas-vector-search/vector-search-type/\",target:\"_blank\"},\"向量搜索索引\"),\" \",\"以开始使用 $search 或 $vectorSearch。\""
+ ],
+ [
+  "Are you sure you want to drop index \"${e}\"?",
+  "确定要删除索引 \"${e}\" 吗？"
+ ],
+ [
+  "Index \"${e}\" dropped",
+  "索引 \"${e}\" 已删除"
+ ],
+ [
+  "Failed to drop index \"${e}\"",
+  "删除索引 \"${e}\" 失败"
+ ],
+ [
+  "Hiding \\`${e}\\`",
+  "隐藏索引 \\`${e}\\`"
+ ],
+ [
+  "Unhiding \\`${e}\\`",
+  "取消隐藏索引 \\`${e}\\`"
+ ],
+ [
+  "An error occurred while hiding the index. ${e.message}",
+  "隐藏索引时出错。${e.message}"
+ ],
+ [
+  "An error occurred while unhiding the index. ${e.message}",
+  "取消隐藏索引时出错。${e.message}"
+ ],
+ [
+  "Your index ${e} is in progress.",
+  "您的索引 ${e} 正在创建中。"
+ ],
+ [
+  "Your index ${e} is being updated.",
+  "您的索引 ${e} 正在更新。"
+ ],
+ [
+  "Your index ${e} is being deleted.",
+  "您的索引 ${e} 正在删除。"
+ ],
+ [
+  "\"vectorSearch\"===e.type?\"Vector search index\":\"Search index\"",
+  "\"vectorSearch\"===e.type?\"向量搜索索引\":\"搜索索引\""
+ ],
+ [
+  "${s} is rebuilding`",
+  "${s}正在重建`"
+ ],
+ [
+  "${s} ${e.name} is rebuilding and is ${t.queryable?\"queryable\":\"non-queryable\"}.",
+  "${s} ${e.name} 正在重建，当前${t.queryable?\"可查询\":\"不可查询\"}。"
+ ],
+ [
+  "${s} ${e.name} is building and is non-queryable.",
+  "${s} ${e.name} 正在构建，当前不可查询。"
+ ],
+ [
+  "${s} build failed",
+  "${s}构建失败"
+ ],
+ [
+  "\"The index build for \",e.name,\" failed and is\",\" \",e.queryable?\"queryable\":\"non-queryable\",\".\"",
+  "\"索引 \",e.name,\" 构建失败，当前\",\" \",e.queryable?\"可查询\":\"不可查询\",\"。\""
+ ],
+ [
+  "${s} build complete",
+  "${s}构建完成"
+ ],
+ [
+  "Your ${s.toLowerCase()} ${e.name} has finished building and is queryable.",
+  "您的${s} ${e.name} 已构建完成，可以查询。"
+ ],
+ [
+  "Are you sure you want to drop \"${e}\" from Cluster?",
+  "确定要从集群中删除 \"${e}\" 吗？"
+ ],
+ [
+  "{name:\"Select or type a field name\",type:\"Select a type\"}",
+  "{name:\"选择或输入字段名\",type:\"选择类型\"}"
+ ],
+ [
+  "{key:e,value:e},e,\"columnstore\"===e&&",
+  "{key:e,value:e},({\"1 (asc)\":\"1（升序）\",\"-1 (desc)\":\"-1（降序）\",\"text (full text search)\":\"text（全文搜索）\"})[e]??e,\"columnstore\"===e&&"
+ ],
+ [
+  "units:\"seconds\"",
+  "units:\"秒\""
+ ],
+ [
+  "InvalidIndexSpecificationOption:\"Invalid index definition.\",IndexAlreadyExists:\"This index name is already in use. Please choose another one.\"",
+  "InvalidIndexSpecificationOption:\"索引定义无效。\",IndexAlreadyExists:\"此索引名称已被使用，请选择其他名称。\""
+ ],
+ [
+  "be(\"Index keys must be unique\")",
+  "be(\"索引键必须唯一\")"
+ ],
+ [
+  "Bad TTL: \"${String(a.expireAfterSeconds.value)}\"",
+  "TTL 值无效：\"${String(a.expireAfterSeconds.value)}\""
+ ],
+ [
+  "Bad WildcardProjection: ${String(t)}",
+  "通配符投影无效：${String(t)}"
+ ],
+ [
+  "Bad ColumnstoreProjection: ${String(t)}",
+  "列存储投影无效：${String(t)}"
+ ],
+ [
+  "Bad PartialFilterExpression: ${String(t)}",
+  "部分筛选表达式无效：${String(t)}"
+ ],
+ [
+  "title:\"create\"===t?\"Create Atlas Search Index\":`Edit ${\"vectorSearch\"===h?\"Vector Search\":\"Search\"} Index \"${x}\"`",
+  "title:\"create\"===t?\"创建 Atlas 搜索索引\":`编辑${\"vectorSearch\"===h?\"向量搜索\":\"搜索\"}索引 \"${x}\"`"
+ ],
+ [
+  "\"By default, your\",\" \",\"vectorSearch\"===C?\"vector search\":\"search\",\" \",\"index will have the following configurations. We recommend starting with this and refining it later if you need to.\"",
+  "\"默认情况下，您的\",\" \",\"vectorSearch\"===C?\"向量搜索\":\"搜索\",\" \",\"索引将使用以下配置。建议先使用此配置，之后再按需调整。\""
+ ],
+ [
+  "\"查看 Atlas\",\" \",\"vectorSearch\"===C?\"Vector Search\":\"Search\",\" \",\"tutorials \"",
+  "\"查看 Atlas\",\" \",\"vectorSearch\"===C?\"向量搜索\":\"搜索\",\" \",\"教程 \""
+ ],
+ [
+  "description:`Give your ${H.toLowerCase()} a name for easy reference`",
+  "description:`为您的${H}命名，便于引用`"
+ ],
+ [
+  "\"By default, your \",H.toLowerCase(),\" will have the following configurations. We recommend starting with this and refining it later if you need to.\"",
+  "\"默认情况下，您的\",H,\" 将使用以下配置。建议先使用此配置，之后再按需调整。\""
+ ],
+ [
+  "\"Create \",H,\" for \",e",
+  "\"为 \",e,\" 创建\",H"
+ ],
+ [
+  "onClick:j},\"Create \",H)",
+  "onClick:j},\"创建\",H)"
+ ],
+ [
+  "\"You currently don't have permission to create \",H,\"es in this\",\" \",N?\"project, please contact Project Owner to request the Project Data Access Admin role.\":\"cluster.\"",
+  "\"您当前没有在此\",N?\"项目\":\"集群\",\"中创建\",H,\"的权限\",N?\"，请联系项目所有者申请 Project Data Access Admin 角色。\":\"。\""
+ ],
+ [
+  "\"Edit \",M)",
+  "\"编辑\",M)"
+ ],
+ [
+  "t.queryable?\"Queryable\":\"Non-queryable\"",
+  "t.queryable?\"可查询\":\"不可查询\""
+ ],
+ [
+  "\"This \",M.toLowerCase(),\" parses the data in \",a.createElement(\"b\",null,e),\" \",\"and has the following configurations.\"",
+  "\"此\",M,\"会解析 \",a.createElement(\"b\",null,e),\" \",\"中的数据，并具有以下配置。\""
+ ],
+ [
+  "\"You currently don't have permission to edit \",M,\"es in this\",\" \",h?\"project, please contact Project Owner to request the Project Data Access Admin role.\":\"cluster.\"",
+  "\"您当前没有在此\",h?\"项目\":\"集群\",\"中编辑\",M,\"的权限\",h?\"，请联系项目所有者申请 Project Data Access Admin 角色。\":\"。\""
+ ],
+ [
+  "description:\"Active\"}",
+  "description:\"已连接\"}"
+ ],
+ [
+  "Select collections for ${s}",
+  "为 ${s} 选择集合"
+ ],
+ [
+  "Select collections for ${l}",
+  "为 ${l} 选择集合"
+ ],
+ [
+  "\"aria-label\":\"Search collections\"",
+  "\"aria-label\":\"搜索集合\""
+ ],
+ [
+  "r=void 0===n?\"Search\":n,i=e.className",
+  "r=void 0===n?\"搜索\":n,i=e.className"
+ ],
+ [
+  "re:a\\.createElement\\(\"strong\",null,(\\w+)\\),\"/\",a\\.createElement\\(\"strong\",null,(\\w+)\\),\" total\",\"[  ]\",1===\\2\\?\"collection\":\"collections\",\"[  ]\",\"selected\\.\"",
+  "\"已选择 \",a.createElement(\"strong\",null,$1),\"/\",a.createElement(\"strong\",null,$2),\" 个集合。\""
+ ],
+ [
+  "\"aria-label\":\"Delete relationship\"",
+  "\"aria-label\":\"删除关系\""
+ ],
+ [
+  "\"aria-label\":\"Datatype\"",
+  "\"aria-label\":\"数据类型\""
+ ],
+ [
+  "\"aria-label\":\"Select database\"",
+  "\"aria-label\":\"选择数据库\""
+ ],
+ [
+  "\"aria-label\":\"Select connection\"",
+  "\"aria-label\":\"选择连接\""
+ ],
+ [
+  "\"aria-label\":\"Sample size\"",
+  "\"aria-label\":\"样本大小\""
+ ],
+ [
+  "Connection failed.",
+  "连接失败。"
+ ],
+ [
+  "a.createElement(At,{label:\"Model\"}",
+  "a.createElement(At,{label:\"模型\"}"
+ ],
+ [
+  "{label:\"At\"}",
+  "{label:\"于\"}"
+ ],
+ [
+  "{name:\"diagrams\",onClick:()=>g()},{name:t||\"untitled\"}",
+  "{name:\"图表\",onClick:()=>g()},{name:t||\"未命名\"}"
+ ],
+ [
+  "\"aria-label\":\"Undo\"",
+  "\"aria-label\":\"撤销\""
+ ],
+ [
+  "\"aria-label\":\"Redo\"",
+  "\"aria-label\":\"重做\""
+ ],
+ [
+  "\"aria-label\":\"Add Collection\"",
+  "\"aria-label\":\"添加集合\""
+ ],
+ [
+  "\"aria-label\":\"Export\",onClick:l",
+  "\"aria-label\":\"导出\",onClick:l"
+ ],
+ [
+  "diagramLabel:t?.name||\"Schema Preview\"",
+  "diagramLabel:t?.name||\"架构预览\""
+ ],
+ [
+  "${a} name cannot be empty.",
+  "${({Diagram:\"图表\",Collection:\"集合\",Field:\"字段\",Relationship:\"关系\"})[a]??a}名称不能为空。"
+ ],
+ [
+  "${a} name must be unique.",
+  "${({Diagram:\"图表\",Collection:\"集合\",Field:\"字段\",Relationship:\"关系\"})[a]??a}名称必须唯一。"
+ ],
+ [
+  "m(\"Field must have a type.\")",
+  "m(\"字段必须有类型。\")"
+ ],
+ [
+  "\"Could not apply changes\"",
+  "\"无法应用更改\""
+ ],
+ [
+  "An error occurred while exporting the diagram: ${e.message}",
+  "导出图表时出错：${e.message}"
+ ],
+ [
+  "new Error(\"Diagram element not found\")",
+  "new Error(\"未找到图表元素\")"
+ ],
+ [
+  "\"aria-label\":p?\"Exit Relationship Drawing Mode\":\"Add Relationship\"",
+  "\"aria-label\":p?\"退出关系绘制模式\":\"添加关系\""
+ ],
+ [
+  "tag:\"One\"",
+  "tag:\"一\""
+ ],
+ [
+  "tag:\"Many\"",
+  "tag:\"多\""
+ ],
+ [
+  "\"aria-label\":\"Search diagrams\"",
+  "\"aria-label\":\"搜索图表\""
+ ],
+ [
+  "new Error(\"Invalid file contents\")",
+  "new Error(\"文件内容无效\")"
+ ],
+ [
+  "new Error(\"Unsupported diagram file format\")",
+  "new Error(\"不支持的图表文件格式\")"
+ ],
+ [
+  "new Error(\"Diagram file is missing required fields\")",
+  "new Error(\"图表文件缺少必需字段\")"
+ ],
+ [
+  "\"Failed to parse diagram file: Invalid diagram data.\"",
+  "\"解析图表文件失败：图表数据无效。\""
+ ],
+ [
+  "Failed to parse diagram file: ${e.message}",
+  "解析图表文件失败：${e.message}"
+ ],
+ [
+  "new Error(\"File read error\")",
+  "new Error(\"文件读取错误\")"
+ ],
+ [
+  "\"Error opening diagram\"",
+  "\"打开图表出错\""
+ ],
+ [
+  "Edge from ${x.source} to ${x.target}",
+  "从 ${x.source} 到 ${x.target} 的连线"
+ ],
+ [
+  "\"Multiple types: \",n",
+  "\"多种类型：\",n"
+ ],
+ [
+  "children:\"(mixed)\"",
+  "children:\"（混合）\""
+ ],
+ [
+  "title:\"Edit field name\"",
+  "title:\"编辑字段名\""
+ ],
+ [
+  "\"aria-label\":l?\"Collapse Field\":\"Expand Field\",title:l?\"Collapse Field\":\"Expand Field\"",
+  "\"aria-label\":l?\"折叠字段\":\"展开字段\",title:l?\"折叠字段\":\"展开字段\""
+ ],
+ [
+  "\"aria-label\":\"Add new field\",title:\"添加字段\"",
+  "\"aria-label\":\"添加新字段\",title:\"添加字段\""
+ ],
+ [
+  "\"aria-label\":\"Add Field\",onClick:S,title:\"添加字段\"",
+  "\"aria-label\":\"添加字段\",onClick:S,title:\"添加字段\""
+ ],
+ [
+  "O=E?\"Expand all\":\"Collapse all\"",
+  "O=E?\"全部展开\":\"全部折叠\""
+ ]
+]

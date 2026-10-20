@@ -1,0 +1,102 @@
+[
+ [
+  "title:\"Use AI Features in \"+(n?\"Data Explorer\":\"Compass\")",
+  "title:\"在 \"+(n?\"Data Explorer\":\"Compass\")+\" 中使用 AI 功能\""
+ ],
+ [
+  "\"Features in \",n?\"Data Explorer\":\"Compass\",\" powered by generative AI may produce inaccurate responses. Please see our\",\" \"",
+  "n?\"Data Explorer\":\"Compass\",\" 中由生成式 AI 驱动的功能可能产生不准确的回答。更多信息请参阅我们的\",\" \""
+ ],
+ [
+  "\"FAQ\"),\" \",\"for more information. Continue to opt into all AI-powered features within \",n?\"Data Explorer\":\"Compass\",\".\"",
+  "\"FAQ\"),\"。继续使用即表示您选择启用 \",n?\"Data Explorer\":\"Compass\",\" 中的所有 AI 功能。\""
+ ],
+ [
+  "\"AI-powered features in \",n?\"Data Explorer\":\"Compass\",\" \",\"supply users with an intelligent toolset to build faster and smarter with MongoDB.\"",
+  "n?\"Data Explorer\":\"Compass\",\" 中的 AI 功能为用户提供智能工具集，帮助您更快、更智能地使用 MongoDB。\""
+ ],
+ [
+  "\"AI features are enabled for project users with data access. Project Owners can disable Data Explorer AI features in \",a,\".\"",
+  "\"有数据访问权限的项目用户已启用 AI 功能。项目所有者可在\",a,\"中禁用 Data Explorer AI 功能。\""
+ ],
+ [
+  "\"AI features are enabled for project users with data access. Project Owners can disable these features or enable sending sample field values in Data Explorer AI features to improve their accuracy in\",\" \",a,\".\"",
+  "\"有数据访问权限的项目用户已启用 AI 功能。项目所有者可以禁用这些功能，或在 Data Explorer AI 功能中启用发送示例字段值以提高准确性，请前往\",\" \",a,\"。\""
+ ],
+ [
+  "\"AI features are disabled for project users with data access. Project Owners can enable Data Explorer AI features in \",a,\".\"",
+  "\"有数据访问权限的项目用户已禁用 AI 功能。项目所有者可在\",a,\"中启用 Data Explorer AI 功能。\""
+ ],
+ [
+  "message:`Max staleness must be at least ${L} seconds.`",
+  "message:`最大滞后时间不能少于 ${L} 秒。`"
+ ],
+ [
+  "message:`EncryptedFieldConfig is invalid: ${a}`",
+  "message:`EncryptedFieldConfig 无效：${a}`"
+ ],
+ [
+  "message:`Unable to save connection: ${e.message}`",
+  "message:`无法保存连接：${e.message}`"
+ ],
+ [
+  "message:`Error updating connection schema: ${e.message}`",
+  "message:`更新连接架构时出错：${e.message}`"
+ ],
+ [
+  "message:`Some connection options have been overridden through settings: ${e.join(\", \")}`",
+  "message:`部分连接选项已被设置覆盖：${e.join(\", \")}`"
+ ],
+ [
+  "title:`Authentication expired for ${(0,o.T8)(e)}`",
+  "title:`身份验证已过期：${(0,o.T8)(e)}`"
+ ],
+ [
+  "e?`Server or service \"${(0,o.T8)(e)}\"`:\"This server or service\"",
+  "e?`服务器或服务“${(0,o.T8)(e)}”`:\"此服务器或服务\""
+ ],
+ [
+  "{href:\"/static/atlas/country_iso_codes.txt\"},\"here\")",
+  "{href:\"/static/atlas/country_iso_codes.txt\"},\"此处\")"
+ ],
+ [
+  "\"for Global Writes.\")",
+  "\"查询您的数据库。\")"
+ ],
+ [
+  "s,\" field at insert time.\")",
+  "s,\" 字段。\")"
+ ],
+ [
+  "'To configure Global Writes, the first shard key of this collection must be \"location\" with ranged sharding and you must also specify a second shard key.'",
+  "'要配置 Global Writes，此集合的第一个分片键必须是采用范围分片的“location”，并且您还必须指定第二个分片键。'"
+ ],
+ [
+  "\"Faker 函数\"),\" \",\"，也可以",
+  "\"Faker 函数\"),\"，也可以"
+ ],
+ [
+  "\"faker 函数\"),\" \",\"），可在下一步中进行。\"",
+  "\"faker 函数\"),\"），可在下一步中进行。\""
+ ],
+ [
+  "):\"Not available\"),[l,n])",
+  "):\"不可用\"),[l,n])"
+ ],
+ [
+  "R={[O]:\"Confirm\",[P]:\"Generate Script\",[F]:\"Done\"}",
+  "R={[O]:\"确认\",[P]:\"生成脚本\",[F]:\"完成\"}"
+ ],
+ [
+  "\" \",\"(2.5 or later)\")",
+  "\" \",\"（2.5 或更高版本）\")"
+ ],
+ [
+  "\"mongosh 连接指南\"),\".\")",
+  "\"mongosh 连接指南\"),\"。\")"
+ ],
+ [
+  "\"2. Run the script with \",a.createElement(Oe.InlineCode,null,\"mongosh\"))",
+  "\"2. 使用 \",a.createElement(Oe.InlineCode,null,\"mongosh\"),\" 运行脚本\")"
+ ]
+]

@@ -1,0 +1,78 @@
+[
+  [
+    "re:(open-query-export-to-language\",\\{(?:[^{}]|\\{[^{}]*\\})*\\}),\"查询\"\\)",
+    "$1,\"Query\")"
+  ],
+  [
+    "re:(open-query-export-to-language\",\\{(?:[^{}]|\\{[^{}]*\\})*\\}),\"删除查询\"\\)",
+    "$1,\"Delete Query\")"
+  ],
+  [
+    "label:\"索引\"===n?",
+    "label:\"Indexes\"===n?"
+  ],
+  [
+    "default:return{id:n,name:n}}}(n,e,t)",
+    "default:return{id:n,name:{\"read-only\":\"只读\"}[n]??n}}}(n,e,t)"
+  ],
+  [
+    "o??\"Learn more\"",
+    "o??\"了解更多\""
+  ],
+  [
+    "this.props.isSaveAs?\"Save Pipeline As...\":\"Save Pipeline\"",
+    "this.props.isSaveAs?\"另存管道为…\":\"保存管道\""
+  ],
+  [
+    "title:o?\"Select a Connection and Namespace\":\"Select a Namespace\"",
+    "title:o?\"选择连接和命名空间\":\"选择命名空间\""
+  ],
+  [
+    "label:`Update this ${r} with the newly selected namespace`",
+    "label:`使用新选择的命名空间更新此${\"query\"===r?\"查询\":\"聚合\"}`"
+  ],
+  [
+    "`Are you sure you want to delete your ${\"query\"===s.type?\"query\":\"aggregation\"}?`",
+    "`确定要删除您的${\"query\"===s.type?\"查询\":\"聚合\"}吗？`"
+  ],
+  [
+    "title:`Rename ${t?.type??\"\"}`",
+    "title:`重命名${{query:\"查询\",aggregation:\"聚合\"}[t?.type]??\"\"}`"
+  ],
+  [
+    "label:{displayLabelKey:\"id\",name:\"Collection Name\"}",
+    "label:{displayLabelKey:\"id\",name:\"集合名称\"}"
+  ],
+  [
+    "re:\\[\"Connection\",(\\w+)\\|\\|\"\"\\]",
+    "[\"连接\",$1||\"\"]"
+  ],
+  [
+    "[\"Database\",",
+    "[\"数据库\","
+  ],
+  [
+    "[\"View\",",
+    "[\"视图\","
+  ],
+  [
+    "[\"Derived from\",",
+    "[\"源自\","
+  ],
+  [
+    "[\"Collection\",m]",
+    "[\"集合\",m]"
+  ],
+  [
+    "header:\"平均文档大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:150",
+    "header:\"平均大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:100"
+  ],
+  [
+    "header:\"索引总大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:120",
+    "header:\"索引总大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:108"
+  ],
+  [
+    "[[\"Performance\",o||\"\"]]",
+    "[[\"性能\",o||\"\"]]"
+  ]
+]

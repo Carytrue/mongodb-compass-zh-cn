@@ -919,5 +919,6 @@
   "Specify Number of Documents to Generate": "指定要生成的文档数量",
   "Open stage in focus mode": "在专注模式下打开阶段",
   "Toggle Stage Wizard": "切换阶段向导",
-  "Clear existing rules before generating new ones": "生成新规则前清除现有规则"
+  "Clear existing rules before generating new ones": "生成新规则前清除现有规则",
+  "While connected, you may only personalize your connection's name, color or favorite status. To fully configure it, you must first disconnect. Beware that disconnecting might cause work in progress to be lost.": "连接期间只能修改连接的名称、颜色和收藏状态。如需完整配置，请先断开连接。注意：断开连接可能导致进行中的工作丢失。"
 }
