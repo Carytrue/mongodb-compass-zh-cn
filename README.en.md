@@ -1,8 +1,10 @@
-# MongoDB Compass – Simplified Chinese (zh-CN) localization (unofficial)
+# MongoDB Compass 汉化 – Simplified Chinese (zh-CN) localization (unofficial)
 
 [简体中文](README.md)
 
 Compass has no built-in i18n, so this tool localizes the desktop app by **reading the `app.asar` you already have installed, replacing UI strings with Chinese according to a dictionary, and writing the result back**. The repository contains no Compass program files – only the patcher and the dictionary.
+
+![Compass in Chinese: documents tab](docs/documents.png)
 
 > Unofficial and not affiliated with MongoDB, Inc. "MongoDB" and "Compass" are trademarks of MongoDB, Inc., used here only to say which software this tool is for.
 

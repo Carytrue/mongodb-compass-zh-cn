@@ -68,11 +68,19 @@
     "header:\"平均大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:100"
   ],
   [
-    "header:\"索引总大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:120",
-    "header:\"索引总大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:108"
-  ],
-  [
     "[[\"Performance\",o||\"\"]]",
     "[[\"性能\",o||\"\"]]"
+  ],
+  [
+    "header:\"索引总大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:120",
+    "header:\"索引大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:100"
+  ],
+  [
+    "header:\"存储大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:110",
+    "header:\"存储大小\",enableSorting:!0,sortUndefined:\"last\",maxSize:96"
+  ],
+  [
+    "header:\"文档\",enableSorting:!0,sortUndefined:\"last\",maxSize:110",
+    "header:\"文档\",enableSorting:!0,sortUndefined:\"last\",maxSize:80"
   ]
 ]
